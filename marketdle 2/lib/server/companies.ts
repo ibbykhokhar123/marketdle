@@ -1,0 +1,606 @@
+import 'server-only'
+
+export const DATA_AS_OF = 'Jun 30, 2025'
+export const DATA_SOURCE_LABEL = 'Demo snapshot · approximate values'
+
+export interface Company {
+  ticker: string
+  name: string
+  exchange: 'NASDAQ' | 'NYSE' | 'NYSE American' | 'NYSE Arca' | 'Cboe'
+  sector: string
+  industry: string
+  country: string
+  hq: string
+  ipoYear: number | 'N/A'
+  founded: number | 'N/A'
+  /** Market cap in USD billions */
+  marketCap: number
+  price: number | null
+  pe: number | null
+  /** Trailing revenue in USD billions */
+  revenue: number | null
+  /** Trailing net income in USD billions */
+  netIncome: number | null
+  /** Year-over-year revenue growth in percent */
+  revenueGrowth: number | null
+  employees: number | null
+  /** Business description that never names the company — used as a hint */
+  blurb: string
+  howItMakesMoney: string
+  products: string[]
+  /** Famous product, founder, or business fact — used as the final hint */
+  fact: string
+  history: string
+  /** Approximate split-adjusted closes, semiannual from Jul 2020 to Jun 2025 (11 points) */
+  anchors: number[]
+  /** Present only for sourced additions/current snapshots; the original demo rows stay untouched. */
+  dataAsOf?: string
+  financialPeriod?: string
+  verifiedHistoryKey?: string
+  sourceNote?: string
+}
+
+export const LEGACY_COMPANIES: Company[] = [
+  {
+    ticker: 'AAPL', name: 'Apple Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Consumer Electronics',
+    country: 'United States', hq: 'Cupertino, CA', ipoYear: 1980, founded: 1976,
+    marketCap: 3000, price: 205, pe: 31, revenue: 400, netIncome: 97, revenueGrowth: 5, employees: 164000,
+    blurb: 'Designs premium smartphones, personal computers, tablets, wearables, and a growing suite of subscription services tied together by its own operating systems and chips.',
+    howItMakesMoney: 'Roughly half of revenue comes from iPhone sales; a fast-growing, high-margin Services segment (App Store, iCloud, Apple Music, payments) supplies most of the rest.',
+    products: ['iPhone', 'Mac', 'App Store & Services'],
+    fact: 'Started in a garage by Steve Jobs, Steve Wozniak, and Ronald Wayne; the 2007 launch of a touchscreen phone reshaped the industry.',
+    history: 'Shares rallied in 2020–21 on record device demand and a 4-for-1 split, slid with tech during the 2022 rate-hike selloff, then reached new highs as buybacks and Services growth continued.',
+    anchors: [91, 132, 145, 175, 140, 130, 192, 185, 220, 240, 205],
+  },
+  {
+    ticker: 'MSFT', name: 'Microsoft Corporation', exchange: 'NASDAQ', sector: 'Technology', industry: 'Software—Infrastructure',
+    country: 'United States', hq: 'Redmond, WA', ipoYear: 1986, founded: 1975,
+    marketCap: 3650, price: 495, pe: 38, revenue: 270, netIncome: 96, revenueGrowth: 15, employees: 228000,
+    blurb: 'Sells cloud computing infrastructure, productivity software, operating systems, developer tools, and gaming, with deep enterprise relationships worldwide.',
+    howItMakesMoney: 'Cloud services (Azure) and commercial software subscriptions such as Office 365 drive the bulk of revenue, alongside Windows licensing, LinkedIn, and gaming.',
+    products: ['Azure', 'Microsoft 365', 'Windows', 'Xbox'],
+    fact: 'Founded by Bill Gates and Paul Allen; an early operating system licensed to IBM became its foundation.',
+    history: 'Cloud growth carried the stock through 2021, a 2022 drawdown followed rising rates, and a multi-billion-dollar AI partnership helped spark a strong 2023–24 rally.',
+    anchors: [205, 230, 275, 330, 260, 240, 335, 375, 450, 420, 495],
+  },
+  {
+    ticker: 'NVDA', name: 'NVIDIA Corporation', exchange: 'NASDAQ', sector: 'Technology', industry: 'Semiconductors',
+    country: 'United States', hq: 'Santa Clara, CA', ipoYear: 1999, founded: 1993,
+    marketCap: 3800, price: 157, pe: 50, revenue: 148, netIncome: 76, revenueGrowth: 86, employees: 36000,
+    blurb: 'Designs graphics processors and accelerated computing platforms that power gaming PCs and, increasingly, the data centers used to train and run artificial intelligence models.',
+    howItMakesMoney: 'Data-center chips and networking now generate the vast majority of revenue, with gaming GPUs, professional visualization, and automotive making up the rest.',
+    products: ['GeForce GPUs', 'Data-center AI accelerators', 'CUDA platform'],
+    fact: 'Co-founded by Jensen Huang over a meal at a Denny\u2019s; its parallel-computing software platform became an industry standard for AI research.',
+    history: 'A crypto and gaming boom lifted shares in 2021, a sharp 2022 decline followed, then surging demand for AI data-center chips drove one of the largest rallies in market history in 2023–24.',
+    anchors: [9.5, 13, 20, 30, 15, 15, 42, 48, 120, 138, 157],
+  },
+  {
+    ticker: 'AMZN', name: 'Amazon.com, Inc.', exchange: 'NASDAQ', sector: 'Consumer Cyclical', industry: 'Internet Retail',
+    country: 'United States', hq: 'Seattle, WA', ipoYear: 1997, founded: 1994,
+    marketCap: 2300, price: 219, pe: 35, revenue: 650, netIncome: 65, revenueGrowth: 10, employees: 1556000,
+    blurb: 'Runs one of the world\u2019s largest online marketplaces and logistics networks while also operating a leading cloud computing platform and a digital advertising business.',
+    howItMakesMoney: 'Online and third-party seller services bring in most revenue, but the cloud computing division and advertising generate an outsized share of operating profit.',
+    products: ['Online marketplace', 'AWS cloud', 'Prime membership'],
+    fact: 'Began as an online bookstore run out of its founder Jeff Bezos\u2019s garage.',
+    history: 'Pandemic shopping lifted shares in 2020, an overbuilt fulfillment network and rising rates hurt in 2022, and cost cuts plus cloud and ad growth fueled a 2023–24 recovery.',
+    anchors: [155, 160, 175, 165, 110, 85, 135, 155, 195, 225, 219],
+  },
+  {
+    ticker: 'GOOGL', name: 'Alphabet Inc.', exchange: 'NASDAQ', sector: 'Communication Services', industry: 'Internet Content & Information',
+    country: 'United States', hq: 'Mountain View, CA', ipoYear: 2004, founded: 1998,
+    marketCap: 2150, price: 176, pe: 20, revenue: 360, netIncome: 115, revenueGrowth: 13, employees: 183000,
+    blurb: 'Operates the world\u2019s most-used search engine, a dominant video platform, a mobile operating system, and a fast-growing cloud business, plus long-term bets like self-driving cars.',
+    howItMakesMoney: 'Advertising across search and video generates most revenue; cloud services, subscriptions, and hardware make up the remainder.',
+    products: ['Search', 'YouTube', 'Android', 'Cloud'],
+    fact: 'Started as a Stanford research project by Larry Page and Sergey Brin; its name is a play on a very large number.',
+    history: 'Digital-ad strength pushed shares higher in 2021, an ad slowdown weighed in 2022, and investor worries about AI competition alternated with strong cloud results through 2024–25.',
+    anchors: [74, 88, 125, 145, 110, 90, 120, 140, 180, 195, 176],
+  },
+  {
+    ticker: 'META', name: 'Meta Platforms, Inc.', exchange: 'NASDAQ', sector: 'Communication Services', industry: 'Internet Content & Information',
+    country: 'United States', hq: 'Menlo Park, CA', ipoYear: 2012, founded: 2004,
+    marketCap: 1850, price: 738, pe: 28, revenue: 170, netIncome: 67, revenueGrowth: 19, employees: 76000,
+    blurb: 'Owns several of the largest social networking and messaging apps on the planet and invests heavily in virtual reality hardware and artificial intelligence.',
+    howItMakesMoney: 'Nearly all revenue comes from targeted advertising across its family of social apps; its virtual-reality division loses billions per year.',
+    products: ['Facebook', 'Instagram', 'WhatsApp', 'Quest headsets'],
+    fact: 'Launched from a Harvard dorm room by Mark Zuckerberg; renamed itself in 2021 to signal a bet on the "metaverse."',
+    history: 'Shares fell more than 70% from their 2021 peak amid ad-tracking changes and heavy VR spending, then roughly quadrupled after a 2023 "year of efficiency."',
+    anchors: [230, 265, 350, 335, 165, 125, 290, 355, 500, 600, 738],
+  },
+  {
+    ticker: 'TSLA', name: 'Tesla, Inc.', exchange: 'NASDAQ', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers',
+    country: 'United States', hq: 'Austin, TX', ipoYear: 2010, founded: 2003,
+    marketCap: 1030, price: 318, pe: 175, revenue: 95, netIncome: 6, revenueGrowth: -1, employees: 125000,
+    blurb: 'Designs and builds electric vehicles, battery storage systems, and solar products, and develops driver-assistance software.',
+    howItMakesMoney: 'Most revenue comes from selling electric cars; energy storage, regulatory credits, and services contribute the rest.',
+    products: ['Model 3', 'Model Y', 'Megapack', 'Supercharger network'],
+    fact: 'Led for years by Elon Musk; named after a famous inventor of alternating-current electrical systems.',
+    history: 'Shares surged roughly tenfold in 2020 and joined the S&P 500, fell sharply in 2022, and have swung widely on delivery numbers and autonomy hopes since.',
+    anchors: [100, 270, 230, 350, 230, 120, 260, 235, 230, 400, 318],
+  },
+  {
+    ticker: 'NFLX', name: 'Netflix, Inc.', exchange: 'NASDAQ', sector: 'Communication Services', industry: 'Entertainment',
+    country: 'United States', hq: 'Los Gatos, CA', ipoYear: 2002, founded: 1997,
+    marketCap: 540, price: 1260, pe: 58, revenue: 41, netIncome: 10, revenueGrowth: 14, employees: 14000,
+    blurb: 'Operates a global subscription streaming service with original films and series, available in more than 190 countries.',
+    howItMakesMoney: 'Monthly membership fees generate nearly all revenue, supplemented by a newer ad-supported tier.',
+    products: ['Streaming membership', 'Original series & films', 'Ad-supported plan'],
+    fact: 'Began by mailing DVDs in red envelopes before pivoting to streaming.',
+    history: 'Shares crashed about 75% in 2022 after reporting its first subscriber loss in a decade, then soared after a password-sharing crackdown and launch of an ad tier.',
+    anchors: [490, 540, 510, 600, 180, 300, 440, 490, 650, 880, 1260],
+  },
+  {
+    ticker: 'JPM', name: 'JPMorgan Chase & Co.', exchange: 'NYSE', sector: 'Financial Services', industry: 'Banks—Diversified',
+    country: 'United States', hq: 'New York, NY', ipoYear: 1969, founded: 1799,
+    marketCap: 800, price: 290, pe: 14, revenue: 170, netIncome: 58, revenueGrowth: 5, employees: 317000,
+    blurb: 'The largest bank in the United States by assets, spanning consumer banking, credit cards, investment banking, trading, and asset management.',
+    howItMakesMoney: 'Earns net interest income on loans and deposits plus fees from investment banking, trading, payments, and wealth management.',
+    products: ['Consumer banking', 'Investment banking', 'Asset & wealth management'],
+    fact: 'Traces its roots to a water company co-founded by Aaron Burr in 1799; led by Jamie Dimon since 2005.',
+    history: 'Higher interest rates boosted lending profits in 2022–23, and the bank acquired First Republic during the 2023 regional bank crisis.',
+    anchors: [97, 128, 155, 160, 115, 135, 150, 170, 210, 240, 290],
+  },
+  {
+    ticker: 'V', name: 'Visa Inc.', exchange: 'NYSE', sector: 'Financial Services', industry: 'Credit Services',
+    country: 'United States', hq: 'San Francisco, CA', ipoYear: 2008, founded: 1958,
+    marketCap: 690, price: 355, pe: 35, revenue: 37, netIncome: 20, revenueGrowth: 10, employees: 31600,
+    blurb: 'Runs a global electronic payments network that connects consumers, merchants, and banks, without lending money itself.',
+    howItMakesMoney: 'Charges small fees on the dollar volume and number of transactions processed across its network, plus cross-border fees.',
+    products: ['Card payment network', 'Cross-border processing', 'Tap to Pay'],
+    fact: 'Its 2008 IPO was the largest in U.S. history at the time, raising nearly $18 billion during the financial crisis.',
+    history: 'Shares dipped in 2020 as travel collapsed, then rose steadily as card spending and cross-border travel recovered.',
+    anchors: [195, 215, 235, 215, 200, 210, 235, 260, 275, 315, 355],
+  },
+  {
+    ticker: 'WMT', name: 'Walmart Inc.', exchange: 'NYSE', sector: 'Consumer Defensive', industry: 'Discount Stores',
+    country: 'United States', hq: 'Bentonville, AR', ipoYear: 1970, founded: 1962,
+    marketCap: 780, price: 98, pe: 41, revenue: 690, netIncome: 19, revenueGrowth: 4, employees: 2100000,
+    blurb: 'The world\u2019s largest retailer by revenue, operating thousands of supercenters, a warehouse club chain, and a growing e-commerce and advertising business.',
+    howItMakesMoney: 'Sells groceries and general merchandise at low margins and high volume, with membership fees and advertising adding higher-margin income.',
+    products: ['Supercenters', 'Sam\u2019s Club', 'Online grocery delivery'],
+    fact: 'Founded by Sam Walton in Arkansas; it is the largest private employer in the world.',
+    history: 'Shares were steady through the 2022 selloff as shoppers traded down, then rallied as e-commerce turned profitable; a 3-for-1 split took effect in 2024.',
+    anchors: [40, 48, 47, 47, 42, 48, 52, 52, 68, 92, 98],
+  },
+  {
+    ticker: 'KO', name: 'The Coca-Cola Company', exchange: 'NYSE', sector: 'Consumer Defensive', industry: 'Beverages—Non-Alcoholic',
+    country: 'United States', hq: 'Atlanta, GA', ipoYear: 1919, founded: 1892,
+    marketCap: 305, price: 71, pe: 28, revenue: 47, netIncome: 11, revenueGrowth: 2, employees: 69700,
+    blurb: 'Owns hundreds of soft drink, water, juice, and coffee brands sold in more than 200 countries, largely through independent bottling partners.',
+    howItMakesMoney: 'Sells concentrate and syrups to bottlers and earns brand licensing income; finished-goods sales add the remainder.',
+    products: ['Flagship cola', 'Sprite', 'Smartwater', 'Costa Coffee'],
+    fact: 'Warren Buffett\u2019s Berkshire Hathaway has been a top shareholder since 1988; its secret formula is famously kept in a vault.',
+    history: 'A classic defensive stock: it held up well during the 2022 bear market and has raised its dividend for more than 60 consecutive years.',
+    anchors: [47, 54, 54, 59, 63, 64, 61, 59, 63, 62, 71],
+  },
+  {
+    ticker: 'DIS', name: 'The Walt Disney Company', exchange: 'NYSE', sector: 'Communication Services', industry: 'Entertainment',
+    country: 'United States', hq: 'Burbank, CA', ipoYear: 1957, founded: 1923,
+    marketCap: 222, price: 124, pe: 25, revenue: 93, netIncome: 9, revenueGrowth: 4, employees: 233000,
+    blurb: 'A global entertainment company spanning film studios, theme parks, cruise lines, cable sports networks, and streaming services.',
+    howItMakesMoney: 'Theme parks and consumer products generate the most profit, followed by sports networks, streaming subscriptions, and box office.',
+    products: ['Theme parks', 'ESPN', 'Streaming', 'Marvel & Pixar films'],
+    fact: 'Founded by two brothers in 1923; a cartoon mouse became its most famous mascot.',
+    history: 'A streaming subscriber boom pushed shares to records in early 2021, then heavy streaming losses and a CEO change sent them down by more than half.',
+    anchors: [117, 175, 180, 155, 95, 90, 88, 90, 95, 112, 124],
+  },
+  {
+    ticker: 'NKE', name: 'NIKE, Inc.', exchange: 'NYSE', sector: 'Consumer Cyclical', industry: 'Footwear & Accessories',
+    country: 'United States', hq: 'Beaverton, OR', ipoYear: 1980, founded: 1964,
+    marketCap: 90, price: 61, pe: 28, revenue: 46, netIncome: 3.2, revenueGrowth: -10, employees: 77800,
+    blurb: 'The world\u2019s largest athletic footwear and apparel brand, selling through its own stores, apps, and wholesale partners.',
+    howItMakesMoney: 'Sells sneakers, apparel, and equipment, with footwear making up about two-thirds of revenue.',
+    products: ['Air Jordan', 'Running shoes', 'Athletic apparel'],
+    fact: 'Started as Blue Ribbon Sports, importing Japanese running shoes; co-founder Phil Knight sold them from his car.',
+    history: 'Shares peaked in late 2021, then slid for years as a direct-to-consumer push backfired and competitors gained share.',
+    anchors: [98, 140, 155, 165, 105, 115, 110, 105, 80, 75, 61],
+  },
+  {
+    ticker: 'INTC', name: 'Intel Corporation', exchange: 'NASDAQ', sector: 'Technology', industry: 'Semiconductors',
+    country: 'United States', hq: 'Santa Clara, CA', ipoYear: 1971, founded: 1968,
+    marketCap: 98, price: 22, pe: null, revenue: 53, netIncome: -19, revenueGrowth: -2, employees: 109000,
+    blurb: 'Designs and manufactures processors for PCs and servers and is building out a contract chip-manufacturing business.',
+    howItMakesMoney: 'Sells CPUs for laptops, desktops, and data centers; its foundry business currently loses money.',
+    products: ['Core processors', 'Xeon server chips', 'Foundry services'],
+    fact: 'Co-founded by Gordon Moore, whose famous "law" predicted transistor counts would double roughly every two years.',
+    history: 'Lost manufacturing leadership and market share to rivals; shares fell by more than half in 2024 and the dividend was suspended.',
+    anchors: [60, 50, 57, 52, 37, 27, 35, 48, 31, 20, 22],
+  },
+  {
+    ticker: 'AMD', name: 'Advanced Micro Devices, Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Semiconductors',
+    country: 'United States', hq: 'Santa Clara, CA', ipoYear: 1972, founded: 1969,
+    marketCap: 230, price: 142, pe: 100, revenue: 28, netIncome: 1.8, revenueGrowth: 24, employees: 28000,
+    blurb: 'Designs CPUs, graphics chips, and AI accelerators for PCs, game consoles, and data centers, outsourcing manufacturing.',
+    howItMakesMoney: 'Data-center processors and accelerators are its biggest segment, with PC chips, gaming console chips, and embedded products following.',
+    products: ['Ryzen CPUs', 'EPYC server chips', 'Instinct AI accelerators'],
+    fact: 'Led by Lisa Su since 2014, it went from near bankruptcy to a major rival in server chips; it acquired Xilinx in 2022.',
+    history: 'Shares tripled from 2020 to late 2021 on server-chip share gains, fell in 2022, and rallied in 2023–24 on AI accelerator hopes.',
+    anchors: [52, 90, 85, 145, 75, 65, 115, 145, 160, 120, 142],
+  },
+  {
+    ticker: 'COST', name: 'Costco Wholesale Corporation', exchange: 'NASDAQ', sector: 'Consumer Defensive', industry: 'Discount Stores',
+    country: 'United States', hq: 'Issaquah, WA', ipoYear: 1985, founded: 1983,
+    marketCap: 440, price: 990, pe: 56, revenue: 265, netIncome: 7.8, revenueGrowth: 7, employees: 333000,
+    blurb: 'Operates membership-only warehouse clubs selling a limited selection of products in bulk at very low markups.',
+    howItMakesMoney: 'Merchandise sales generate most revenue, but annual membership fees supply a large share of operating profit.',
+    products: ['Warehouse clubs', 'Kirkland Signature', 'Executive membership'],
+    fact: 'Its $1.50 hot dog and soda combo has kept the same price since 1985.',
+    history: 'A steady compounder that kept rising through the 2022 bear market thanks to loyal members and renewal rates above 90%.',
+    anchors: [330, 375, 395, 560, 480, 470, 535, 640, 850, 920, 990],
+  },
+  {
+    ticker: 'PEP', name: 'PepsiCo, Inc.', exchange: 'NASDAQ', sector: 'Consumer Defensive', industry: 'Beverages—Non-Alcoholic',
+    country: 'United States', hq: 'Purchase, NY', ipoYear: 1965, founded: 1965,
+    marketCap: 180, price: 132, pe: 19, revenue: 91, netIncome: 9.5, revenueGrowth: 0, employees: 318000,
+    blurb: 'Sells snacks and beverages worldwide, owning many of the best-known chip, cereal, and soft drink brands.',
+    howItMakesMoney: 'Snack foods make up more than half of revenue, with beverages and packaged breakfast foods making up the rest.',
+    products: ['Lay\u2019s', 'Doritos', 'Gatorade', 'Quaker'],
+    fact: 'Formed by the merger of a cola maker and Frito-Lay; its namesake drink was invented by a North Carolina pharmacist.',
+    history: 'Defensive strength helped in 2022, but volume declines and weight-loss-drug worries pushed shares lower in 2024–25.',
+    anchors: [135, 147, 155, 170, 170, 180, 185, 165, 165, 150, 132],
+  },
+  {
+    ticker: 'MCD', name: "McDonald's Corporation", exchange: 'NYSE', sector: 'Consumer Cyclical', industry: 'Restaurants',
+    country: 'United States', hq: 'Chicago, IL', ipoYear: 1965, founded: 1955,
+    marketCap: 210, price: 292, pe: 26, revenue: 26, netIncome: 8.2, revenueGrowth: 0, employees: 150000,
+    blurb: 'The largest fast-food chain in the world, with more than 40,000 restaurants, most owned by franchisees.',
+    howItMakesMoney: 'Collects rent and royalties from franchisees, which provides high-margin, stable income; company-operated stores add sales revenue.',
+    products: ['Big Mac', 'Fries', 'McCafé'],
+    fact: 'Ray Kroc turned a single California burger stand into a global franchise; it is also one of the world\u2019s largest real-estate owners.',
+    history: 'Resilient through the pandemic thanks to drive-thrus, it slipped in 2024 as cost-conscious customers pulled back.',
+    anchors: [185, 215, 230, 265, 245, 265, 295, 290, 255, 290, 292],
+  },
+  {
+    ticker: 'BA', name: 'The Boeing Company', exchange: 'NYSE', sector: 'Industrials', industry: 'Aerospace & Defense',
+    country: 'United States', hq: 'Arlington, VA', ipoYear: 1934, founded: 1916,
+    marketCap: 158, price: 210, pe: null, revenue: 70, netIncome: -11, revenueGrowth: -10, employees: 172000,
+    blurb: 'Builds commercial jetliners, military aircraft, satellites, and defense systems and provides aircraft services.',
+    howItMakesMoney: 'Sells commercial airplanes to airlines and lessors, defense and space systems to governments, and maintenance services.',
+    products: ['737 jetliner', '787 Dreamliner', 'Defense systems'],
+    fact: 'Founded by William Boeing in Seattle in 1916; one of only two major global makers of large passenger jets.',
+    history: 'Shares fell during the 2020 travel collapse, and quality problems including a 2024 door-plug blowout led to production caps and heavy losses.',
+    anchors: [180, 215, 240, 200, 140, 190, 210, 260, 180, 160, 210],
+  },
+  {
+    ticker: 'XOM', name: 'Exxon Mobil Corporation', exchange: 'NYSE', sector: 'Energy', industry: 'Oil & Gas Integrated',
+    country: 'United States', hq: 'Spring, TX', ipoYear: 1920, founded: 1870,
+    marketCap: 470, price: 108, pe: 14, revenue: 340, netIncome: 33, revenueGrowth: -2, employees: 61000,
+    blurb: 'One of the world\u2019s largest publicly traded oil and gas companies, involved in exploration, production, refining, and chemicals.',
+    howItMakesMoney: 'Produces and sells crude oil and natural gas and refines them into fuels, lubricants, and petrochemicals.',
+    products: ['Upstream oil & gas', 'Refined fuels', 'Chemicals'],
+    fact: 'Descended from John D. Rockefeller\u2019s Standard Oil; it acquired Pioneer Natural Resources in 2024.',
+    history: 'Dropped out of the Dow in 2020 as oil prices collapsed, then more than doubled in 2022 when energy prices spiked, posting record profits.',
+    anchors: [42, 42, 60, 60, 85, 105, 105, 100, 115, 110, 108],
+  },
+  {
+    ticker: 'JNJ', name: 'Johnson & Johnson', exchange: 'NYSE', sector: 'Healthcare', industry: 'Drug Manufacturers—General',
+    country: 'United States', hq: 'New Brunswick, NJ', ipoYear: 1944, founded: 1886,
+    marketCap: 370, price: 153, pe: 17, revenue: 89, netIncome: 22, revenueGrowth: 4, employees: 139000,
+    blurb: 'A diversified healthcare company focused on prescription medicines and medical devices such as surgical and orthopedic products.',
+    howItMakesMoney: 'Innovative medicines (oncology, immunology) generate roughly two-thirds of revenue; medical technology supplies the rest.',
+    products: ['Oncology drugs', 'Immunology drugs', 'Surgical devices'],
+    fact: 'Spun off its consumer health brands, including a famous baby shampoo and adhesive bandages, as Kenvue in 2023.',
+    history: 'A low-volatility stock that traded mostly sideways from 2021 to 2025 amid talc litigation and the consumer health spinoff.',
+    anchors: [145, 160, 165, 170, 175, 175, 165, 158, 148, 145, 153],
+  },
+  {
+    ticker: 'PFE', name: 'Pfizer Inc.', exchange: 'NYSE', sector: 'Healthcare', industry: 'Drug Manufacturers—General',
+    country: 'United States', hq: 'New York, NY', ipoYear: 1942, founded: 1849,
+    marketCap: 138, price: 24, pe: 17, revenue: 63, netIncome: 8, revenueGrowth: 7, employees: 81000,
+    blurb: 'A large pharmaceutical company developing vaccines and medicines across oncology, immunology, and internal medicine.',
+    howItMakesMoney: 'Sells branded prescription drugs and vaccines to health systems and governments worldwide.',
+    products: ['Vaccines', 'Oncology drugs', 'Antivirals'],
+    fact: 'Partnered with BioNTech on the first COVID-19 vaccine authorized in the U.S., making it one of the best-selling drugs ever in 2022.',
+    history: 'Shares peaked in late 2021 on pandemic product sales, then lost more than half their value as that revenue faded.',
+    anchors: [33, 37, 40, 55, 50, 50, 37, 28, 28, 26, 24],
+  },
+  {
+    ticker: 'UNH', name: 'UnitedHealth Group Incorporated', exchange: 'NYSE', sector: 'Healthcare', industry: 'Healthcare Plans',
+    country: 'United States', hq: 'Minnetonka, MN', ipoYear: 1984, founded: 1977,
+    marketCap: 285, price: 312, pe: 13, revenue: 410, netIncome: 21, revenueGrowth: 10, employees: 400000,
+    blurb: 'The largest U.S. health insurer, also running a huge healthcare services arm that includes pharmacy benefits, clinics, and data analytics.',
+    howItMakesMoney: 'Collects insurance premiums from employers, individuals, and government programs, plus fees from pharmacy and care-delivery services.',
+    products: ['Health insurance', 'Pharmacy benefits (Optum Rx)', 'Care delivery'],
+    fact: 'Its Optum unit is one of the largest employers of physicians in the United States.',
+    history: 'Long one of the steadiest large caps, shares plunged in 2025 after rising medical costs led it to suspend guidance and replace its CEO.',
+    anchors: [300, 350, 410, 500, 520, 500, 480, 520, 500, 510, 312],
+  },
+  {
+    ticker: 'LLY', name: 'Eli Lilly and Company', exchange: 'NYSE', sector: 'Healthcare', industry: 'Drug Manufacturers—General',
+    country: 'United States', hq: 'Indianapolis, IN', ipoYear: 1970, founded: 1876,
+    marketCap: 700, price: 780, pe: 63, revenue: 49, netIncome: 12, revenueGrowth: 40, employees: 47000,
+    blurb: 'A pharmaceutical company best known today for diabetes and obesity treatments, with additional drugs in oncology, immunology, and neuroscience.',
+    howItMakesMoney: 'Sells prescription medicines; GLP-1-based diabetes and weight-loss drugs are now its largest growth drivers.',
+    products: ['Mounjaro', 'Zepbound', 'Verzenio'],
+    fact: 'Founded by a Civil War veteran and pharmacist; it was the first company to mass-produce insulin in the 1920s.',
+    history: 'Shares roughly quintupled from 2020 to 2024 as demand for its weight-loss drugs soared, making it the most valuable healthcare company in the world.',
+    anchors: [165, 170, 240, 250, 320, 365, 450, 590, 900, 770, 780],
+  },
+  {
+    ticker: 'ADBE', name: 'Adobe Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Software—Application',
+    country: 'United States', hq: 'San Jose, CA', ipoYear: 1986, founded: 1982,
+    marketCap: 165, price: 387, pe: 25, revenue: 22.6, netIncome: 7, revenueGrowth: 10, employees: 30700,
+    blurb: 'Makes creative, document, and marketing software used by designers, photographers, video editors, and enterprises.',
+    howItMakesMoney: 'Sells subscriptions to its creative and document cloud suites and marketing analytics software.',
+    products: ['Photoshop', 'Acrobat & PDF', 'Premiere Pro'],
+    fact: 'Invented the PDF format; its photo-editing software name became a common verb.',
+    history: 'A pandemic darling that peaked in late 2021, it fell on a planned $20B Figma deal (later abandoned) and investor worries about generative AI competition.',
+    anchors: [435, 480, 600, 570, 380, 340, 500, 600, 550, 430, 387],
+  },
+  {
+    ticker: 'CRM', name: 'Salesforce, Inc.', exchange: 'NYSE', sector: 'Technology', industry: 'Software—Application',
+    country: 'United States', hq: 'San Francisco, CA', ipoYear: 2004, founded: 1999,
+    marketCap: 260, price: 272, pe: 42, revenue: 38, netIncome: 6.2, revenueGrowth: 8, employees: 76000,
+    blurb: 'The leading provider of cloud-based customer relationship management software for sales, service, and marketing teams.',
+    howItMakesMoney: 'Sells subscriptions to its cloud software platforms, including analytics and workplace messaging products.',
+    products: ['Sales Cloud', 'Service Cloud', 'Slack', 'Tableau'],
+    fact: 'Founded by Marc Benioff, a former Oracle executive, pioneering the "no software" subscription model.',
+    history: 'Bought Slack in 2021 for about $27B, fell in 2022, then rallied in 2023 after activist investors pushed for higher margins.',
+    anchors: [190, 230, 245, 260, 170, 135, 215, 265, 255, 330, 272],
+  },
+  {
+    ticker: 'ORCL', name: 'Oracle Corporation', exchange: 'NYSE', sector: 'Technology', industry: 'Software—Infrastructure',
+    country: 'United States', hq: 'Austin, TX', ipoYear: 1986, founded: 1977,
+    marketCap: 610, price: 218, pe: 50, revenue: 57, netIncome: 12.4, revenueGrowth: 8, employees: 162000,
+    blurb: 'Sells database software, enterprise applications, and cloud infrastructure, and has become a major provider of AI computing capacity.',
+    howItMakesMoney: 'Cloud services and software license support generate most revenue, followed by new licenses, hardware, and services.',
+    products: ['Oracle Database', 'Oracle Cloud Infrastructure', 'Enterprise applications'],
+    fact: 'Co-founded by Larry Ellison; it bought health-records company Cerner for about $28B in 2022.',
+    history: 'Long seen as a slow-growth software firm, shares more than doubled in 2024–25 as AI companies signed large cloud-capacity deals.',
+    anchors: [55, 62, 85, 90, 70, 82, 110, 110, 140, 170, 218],
+  },
+  {
+    ticker: 'PYPL', name: 'PayPal Holdings, Inc.', exchange: 'NASDAQ', sector: 'Financial Services', industry: 'Credit Services',
+    country: 'United States', hq: 'San Jose, CA', ipoYear: 2015, founded: 1998,
+    marketCap: 72, price: 74, pe: 16, revenue: 32, netIncome: 4.4, revenueGrowth: 4, employees: 24400,
+    blurb: 'Operates digital wallets and online payment processing for consumers and merchants, including a popular peer-to-peer payments app.',
+    howItMakesMoney: 'Earns transaction fees on payments processed for merchants, plus interest and fees from credit products.',
+    products: ['Digital wallet', 'Venmo', 'Merchant checkout'],
+    fact: 'Its early team, nicknamed the "mafia," went on to found or fund many major tech companies; it was owned by eBay before a 2015 spinoff.',
+    history: 'Soared during the pandemic e-commerce boom, then fell about 80% from its 2021 peak as growth slowed and competition intensified.',
+    anchors: [175, 240, 280, 190, 75, 75, 70, 62, 60, 85, 74],
+  },
+  {
+    ticker: 'SBUX', name: 'Starbucks Corporation', exchange: 'NASDAQ', sector: 'Consumer Cyclical', industry: 'Restaurants',
+    country: 'United States', hq: 'Seattle, WA', ipoYear: 1992, founded: 1971,
+    marketCap: 103, price: 91, pe: 33, revenue: 36, netIncome: 3.1, revenueGrowth: 1, employees: 361000,
+    blurb: 'The world\u2019s largest coffeehouse chain, with tens of thousands of stores and a strong mobile ordering and loyalty program.',
+    howItMakesMoney: 'Sells beverages and food in company-operated stores, plus licensing and packaged coffee sold in grocery stores.',
+    products: ['Coffeehouses', 'Rewards app', 'Packaged coffee'],
+    fact: 'Named after a character in Moby-Dick; Howard Schultz turned it from a bean seller into a café chain.',
+    history: 'Hit records in 2021, then struggled with slowing traffic in the U.S. and China, leading to a CEO change in 2024.',
+    anchors: [75, 100, 115, 115, 80, 100, 100, 95, 78, 95, 91],
+  },
+  {
+    ticker: 'UBER', name: 'Uber Technologies, Inc.', exchange: 'NYSE', sector: 'Technology', industry: 'Software—Application',
+    country: 'United States', hq: 'San Francisco, CA', ipoYear: 2019, founded: 2009,
+    marketCap: 195, price: 93, pe: 16, revenue: 44, netIncome: 12, revenueGrowth: 18, employees: 31100,
+    blurb: 'Operates a global app connecting riders with drivers and customers with restaurants, grocery stores, and freight carriers.',
+    howItMakesMoney: 'Takes a cut of each ride, delivery, and freight booking processed through its platform, plus advertising.',
+    products: ['Ride-hailing', 'Food delivery (Eats)', 'Freight'],
+    fact: 'Started as "UberCab" in San Francisco; it posted its first full year of operating profit in 2023.',
+    history: 'Shares fell below $25 in 2022, then more than tripled as the company reached sustained profitability and joined the S&P 500 in 2023.',
+    anchors: [31, 52, 45, 42, 22, 28, 45, 62, 70, 62, 93],
+  },
+  {
+    ticker: 'CAT', name: 'Caterpillar Inc.', exchange: 'NYSE', sector: 'Industrials', industry: 'Farm & Heavy Construction Machinery',
+    country: 'United States', hq: 'Irving, TX', ipoYear: 1929, founded: 1925,
+    marketCap: 165, price: 348, pe: 17, revenue: 63, netIncome: 10.8, revenueGrowth: -4, employees: 112900,
+    blurb: 'The world\u2019s largest maker of construction and mining equipment, diesel and gas engines, and industrial turbines.',
+    howItMakesMoney: 'Sells heavy machinery, engines, and replacement parts through a global dealer network, plus equipment financing.',
+    products: ['Excavators & bulldozers', 'Mining trucks', 'Power generation engines'],
+    fact: 'Its iconic yellow machines are a bellwether for global construction and infrastructure spending.',
+    history: 'Infrastructure spending and strong pricing pushed shares to repeated records in 2023–24.',
+    anchors: [130, 180, 215, 200, 180, 240, 260, 300, 340, 370, 348],
+  },
+  {
+    ticker: 'GS', name: 'The Goldman Sachs Group, Inc.', exchange: 'NYSE', sector: 'Financial Services', industry: 'Capital Markets',
+    country: 'United States', hq: 'New York, NY', ipoYear: 1999, founded: 1869,
+    marketCap: 215, price: 708, pe: 16, revenue: 54, netIncome: 14.3, revenueGrowth: 15, employees: 46500,
+    blurb: 'A leading global investment bank advising on mergers, underwriting securities, trading, and managing assets for institutions and wealthy clients.',
+    howItMakesMoney: 'Earns advisory and underwriting fees, trading revenue, and asset- and wealth-management fees.',
+    products: ['M&A advisory', 'Trading', 'Asset & wealth management'],
+    fact: 'Operated as a private partnership for 130 years before going public in 1999.',
+    history: 'Retreated from consumer banking in 2023 and rallied strongly in 2024 as trading and dealmaking rebounded.',
+    anchors: [200, 290, 380, 390, 300, 345, 330, 385, 460, 580, 708],
+  },
+  {
+    ticker: 'BAC', name: 'Bank of America Corporation', exchange: 'NYSE', sector: 'Financial Services', industry: 'Banks—Diversified',
+    country: 'United States', hq: 'Charlotte, NC', ipoYear: 1973, founded: 1904,
+    marketCap: 355, price: 47, pe: 14, revenue: 102, netIncome: 27, revenueGrowth: 3, employees: 213000,
+    blurb: 'One of the largest U.S. banks, serving consumers, small businesses, corporations, and wealth-management clients.',
+    howItMakesMoney: 'Earns interest on loans and securities, plus fees from cards, investment banking, trading, and wealth management (Merrill).',
+    products: ['Consumer banking', 'Merrill wealth management', 'Global markets'],
+    fact: 'Acquired Merrill Lynch in 2008 during the financial crisis; Berkshire Hathaway became its largest shareholder.',
+    history: 'Rising rates initially lifted profits in 2022, but unrealized losses on bond holdings weighed on shares during the 2023 banking scare.',
+    anchors: [24, 31, 41, 45, 32, 34, 30, 33, 40, 45, 47],
+  },
+  {
+    ticker: 'HD', name: 'The Home Depot, Inc.', exchange: 'NYSE', sector: 'Consumer Cyclical', industry: 'Home Improvement Retail',
+    country: 'United States', hq: 'Atlanta, GA', ipoYear: 1981, founded: 1978,
+    marketCap: 365, price: 367, pe: 25, revenue: 162, netIncome: 14.8, revenueGrowth: 7, employees: 470000,
+    blurb: 'The largest home improvement retailer in the U.S., serving do-it-yourself customers and professional contractors.',
+    howItMakesMoney: 'Sells building materials, tools, appliances, and garden supplies through about 2,300 big-box stores and online.',
+    products: ['Home improvement stores', 'Pro contractor supply', 'Online orders'],
+    fact: 'Its orange-apron stores were founded in Atlanta in 1978 by Bernie Marcus and Arthur Blank.',
+    history: 'A pandemic home-renovation boom drove shares to records in 2021; higher mortgage rates and a slow housing market cooled growth afterward.',
+    anchors: [250, 265, 320, 410, 290, 320, 310, 350, 345, 410, 367],
+  },
+  {
+    ticker: 'PG', name: 'The Procter & Gamble Company', exchange: 'NYSE', sector: 'Consumer Defensive', industry: 'Household & Personal Products',
+    country: 'United States', hq: 'Cincinnati, OH', ipoYear: 1891, founded: 1837,
+    marketCap: 375, price: 159, pe: 25, revenue: 84, netIncome: 15, revenueGrowth: 1, employees: 108000,
+    blurb: 'Makes everyday household and personal care products, owning many brands with more than $1 billion in annual sales each.',
+    howItMakesMoney: 'Sells branded consumer staples such as detergent, diapers, razors, and toothpaste through retailers worldwide.',
+    products: ['Tide', 'Pampers', 'Gillette', 'Crest'],
+    fact: 'Started by a candle maker and a soap maker; it essentially invented the modern brand-management system and the "soap opera."',
+    history: 'Price increases offset inflation in 2022–23, keeping the stock near record highs while the market fell.',
+    anchors: [120, 135, 135, 155, 140, 150, 150, 150, 165, 170, 159],
+  },
+  {
+    ticker: 'F', name: 'Ford Motor Company', exchange: 'NYSE', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers',
+    country: 'United States', hq: 'Dearborn, MI', ipoYear: 1956, founded: 1903,
+    marketCap: 43, price: 11, pe: 9, revenue: 183, netIncome: 5, revenueGrowth: 1, employees: 171000,
+    blurb: 'A century-old automaker selling trucks, SUVs, and commercial vans, investing heavily in electric vehicles.',
+    howItMakesMoney: 'Sells vehicles through dealers; trucks and commercial fleet vehicles generate most profit, while its EV unit loses money.',
+    products: ['F-Series pickups', 'Mustang', 'Transit vans'],
+    fact: 'Pioneered the moving assembly line in 1913; the founder\u2019s family still controls the company through special voting shares.',
+    history: 'EV excitement briefly tripled the share price in 2021–22 before supply-chain issues and EV losses pulled it back down.',
+    anchors: [6.5, 9, 14, 20, 11, 12, 15, 12, 13, 10, 11],
+  },
+  {
+    ticker: 'GM', name: 'General Motors Company', exchange: 'NYSE', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers',
+    country: 'United States', hq: 'Detroit, MI', ipoYear: 2010, founded: 1908,
+    marketCap: 47, price: 49, pe: 7, revenue: 187, netIncome: 6, revenueGrowth: 7, employees: 162000,
+    blurb: 'One of the largest U.S. automakers, selling trucks, SUVs, and electric vehicles under several brands, and running an autonomous-driving unit.',
+    howItMakesMoney: 'Sells vehicles through dealers, primarily high-margin pickups and SUVs in North America, plus auto financing.',
+    products: ['Chevrolet', 'Cadillac', 'GMC trucks'],
+    fact: 'Emerged from a government-backed bankruptcy in 2009 and returned to public markets with a record IPO in 2010.',
+    history: 'Shares more than doubled in 2021 on EV plans, then traded at low valuations amid strikes and EV slowdowns before buybacks lifted them in 2024.',
+    anchors: [25, 42, 58, 60, 33, 35, 38, 36, 47, 55, 49],
+  },
+  {
+    ticker: 'MRNA', name: 'Moderna, Inc.', exchange: 'NASDAQ', sector: 'Healthcare', industry: 'Biotechnology',
+    country: 'United States', hq: 'Cambridge, MA', ipoYear: 2018, founded: 2010,
+    marketCap: 10.5, price: 27, pe: null, revenue: 3.1, netIncome: -3.4, revenueGrowth: -50, employees: 5800,
+    blurb: 'A biotech company built around messenger RNA technology, developing vaccines and therapies for infectious diseases, cancer, and rare diseases.',
+    howItMakesMoney: 'Sells respiratory vaccines to governments and health systems; most other programs are still in clinical trials.',
+    products: ['COVID-19 vaccine', 'RSV vaccine', 'Personalized cancer vaccine (in trials)'],
+    fact: 'Its 2018 IPO was the largest biotech IPO ever at the time, years before it had any approved product.',
+    history: 'One of the best-performing stocks of 2020–21 at the height of the pandemic, it lost roughly 95% of its value as vaccine demand collapsed.',
+    anchors: [65, 140, 240, 250, 140, 195, 120, 105, 120, 42, 27],
+  },
+  {
+    ticker: 'ZM', name: 'Zoom Communications, Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Software—Application',
+    country: 'United States', hq: 'San Jose, CA', ipoYear: 2019, founded: 2011,
+    marketCap: 24, price: 78, pe: 26, revenue: 4.7, netIncome: 1, revenueGrowth: 3, employees: 7400,
+    blurb: 'Provides video meetings, cloud phone systems, and team chat software used by businesses, schools, and consumers.',
+    howItMakesMoney: 'Sells monthly and annual subscriptions to its communications platform, mostly to businesses.',
+    products: ['Video meetings', 'Cloud phone', 'Contact center'],
+    fact: 'Its name became a verb during 2020 lockdowns, when daily meeting participants jumped from 10 million to 300 million.',
+    history: 'Shares rose about 400% in 2020 as the world went remote, then gave back nearly all of it as offices reopened.',
+    anchors: [270, 380, 380, 185, 110, 70, 68, 70, 62, 85, 78],
+  },
+  {
+    ticker: 'AVGO', name: 'Broadcom Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Semiconductors',
+    country: 'United States', hq: 'Palo Alto, CA', ipoYear: 2009, founded: 1961,
+    marketCap: 1290, price: 275, pe: 100, revenue: 57, netIncome: 6, revenueGrowth: 28, employees: 37000,
+    blurb: 'Designs networking, wireless, and custom AI chips for data centers and smartphones, and sells infrastructure software after a string of acquisitions.',
+    howItMakesMoney: 'Semiconductor solutions (including custom AI accelerators) and enterprise infrastructure software each contribute large shares of revenue.',
+    products: ['Custom AI chips', 'Networking chips', 'VMware software'],
+    fact: 'Built through serial acquisitions under CEO Hock Tan; it closed a roughly $69B purchase of VMware in 2023.',
+    history: 'Custom AI chip demand and the VMware deal helped shares climb more than sevenfold from 2020 to 2025; it completed a 10-for-1 split in 2024.',
+    anchors: [32, 44, 48, 60, 52, 55, 85, 115, 165, 230, 275],
+  },
+  {
+    ticker: 'CSCO', name: 'Cisco Systems, Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Communication Equipment',
+    country: 'United States', hq: 'San Jose, CA', ipoYear: 1990, founded: 1984,
+    marketCap: 270, price: 69, pe: 28, revenue: 56, netIncome: 10, revenueGrowth: 5, employees: 90400,
+    blurb: 'The largest maker of enterprise networking equipment such as routers and switches, with growing security and observability software lines.',
+    howItMakesMoney: 'Sells networking hardware plus recurring software subscriptions and support services to businesses and service providers.',
+    products: ['Routers & switches', 'Webex', 'Splunk security software'],
+    fact: 'Briefly the world\u2019s most valuable company at the peak of the dot-com bubble in 2000.',
+    history: 'Traded in a range for years, then hit its highest level since 2000 in 2025 after acquiring Splunk and seeing AI networking demand.',
+    anchors: [46, 45, 53, 63, 44, 48, 52, 50, 47, 58, 69],
+  },
+  {
+    ticker: 'IBM', name: 'International Business Machines Corporation', exchange: 'NYSE', sector: 'Technology', industry: 'IT Services',
+    country: 'United States', hq: 'Armonk, NY', ipoYear: 1915, founded: 1911,
+    marketCap: 270, price: 295, pe: 48, revenue: 63, netIncome: 6, revenueGrowth: 1, employees: 270000,
+    blurb: 'A century-old technology company focused on hybrid cloud software, consulting, mainframe computers, and quantum computing research.',
+    howItMakesMoney: 'Software (including Red Hat) is the largest segment, followed by consulting services and infrastructure hardware.',
+    products: ['Red Hat', 'Mainframes', 'Consulting', 'watsonx AI'],
+    fact: 'Nicknamed "Big Blue"; its Deep Blue computer defeated world chess champion Garry Kasparov in 1997.',
+    history: 'Spun off its managed infrastructure unit as Kyndryl in 2021; software and AI momentum drove shares to record highs in 2024–25.',
+    anchors: [120, 120, 140, 135, 140, 145, 135, 165, 185, 220, 295],
+  },
+  {
+    ticker: 'TSM', name: 'Taiwan Semiconductor Manufacturing Company', exchange: 'NYSE', sector: 'Technology', industry: 'Semiconductors',
+    country: 'Taiwan', hq: 'Hsinchu, Taiwan', ipoYear: 1997, founded: 1987,
+    marketCap: 1170, price: 226, pe: 26, revenue: 100, netIncome: 40, revenueGrowth: 35, employees: 76000,
+    blurb: 'The world\u2019s largest contract chipmaker, manufacturing the most advanced processors for many of the biggest chip design companies.',
+    howItMakesMoney: 'Charges chip designers to manufacture wafers on its leading-edge production lines; it does not sell chips under its own brand.',
+    products: ['Advanced-node wafer manufacturing', 'Chip packaging', 'Arizona fabs'],
+    fact: 'Founded by Morris Chang, it pioneered the "pure-play foundry" model of making chips only for other companies.',
+    history: 'Fell during the 2022 chip downturn, then surged on AI demand as it became the sole manufacturer of most leading AI accelerators.',
+    anchors: [75, 120, 120, 125, 85, 90, 100, 105, 170, 200, 226],
+  },
+  {
+    ticker: 'ASML', name: 'ASML Holding N.V.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Semiconductor Equipment & Materials',
+    country: 'Netherlands', hq: 'Veldhoven, Netherlands', ipoYear: 1995, founded: 1984,
+    marketCap: 315, price: 790, pe: 32, revenue: 32, netIncome: 9.5, revenueGrowth: 28, employees: 44000,
+    blurb: 'Builds the photolithography machines chipmakers use to print circuits onto silicon, including the only commercial extreme-ultraviolet systems.',
+    howItMakesMoney: 'Sells lithography systems that can cost over $150 million each, plus lucrative servicing and upgrades for its installed base.',
+    products: ['EUV lithography systems', 'DUV systems', 'Metrology & inspection'],
+    fact: 'Each of its flagship machines ships in dozens of crates and requires multiple cargo planes to deliver.',
+    history: 'A semiconductor supercycle lifted shares in 2021; export restrictions on China and a chip-spending slowdown triggered sharp drops in 2022 and late 2024.',
+    anchors: [365, 540, 690, 690, 480, 620, 720, 760, 1000, 710, 790],
+  },
+  {
+    ticker: 'SHOP', name: 'Shopify Inc.', exchange: 'NASDAQ', sector: 'Technology', industry: 'Software—Application',
+    country: 'Canada', hq: 'Ottawa, Canada', ipoYear: 2015, founded: 2006,
+    marketCap: 145, price: 112, pe: 70, revenue: 9.4, netIncome: 2, revenueGrowth: 26, employees: 8100,
+    blurb: 'Provides software that lets merchants of all sizes build online stores, process payments, and manage inventory and point-of-sale.',
+    howItMakesMoney: 'Earns monthly subscription fees plus a share of payment processing and other merchant services volume.',
+    products: ['Online store builder', 'Payments', 'Point-of-sale'],
+    fact: 'Started when its founders were trying to sell snowboards online and found existing software lacking.',
+    history: 'Became Canada\u2019s most valuable company in 2020, crashed about 80% in 2022, then recovered after selling its logistics arm.',
+    anchors: [95, 120, 150, 140, 35, 45, 65, 78, 65, 110, 112],
+  },
+  {
+    ticker: 'NVO', name: 'Novo Nordisk A/S', exchange: 'NYSE', sector: 'Healthcare', industry: 'Drug Manufacturers—General',
+    country: 'Denmark', hq: 'Bagsværd, Denmark', ipoYear: 1981, founded: 1923,
+    marketCap: 310, price: 69, pe: 20, revenue: 43, netIncome: 15, revenueGrowth: 23, employees: 77000,
+    blurb: 'A pharmaceutical company specializing in diabetes care that developed some of the first blockbuster weight-loss medications.',
+    howItMakesMoney: 'Sells insulin, GLP-1 diabetes treatments, and obesity drugs, primarily in the U.S. and Europe.',
+    products: ['Ozempic', 'Wegovy', 'Insulin products'],
+    fact: 'Became so large that its growth noticeably affected its home country\u2019s GDP figures.',
+    history: 'Shares more than quadrupled to become Europe\u2019s most valuable company in 2024, then fell sharply on disappointing trial data and competition.',
+    anchors: [33, 35, 42, 50, 55, 68, 80, 110, 140, 85, 69],
+  },
+  {
+    ticker: 'SONY', name: 'Sony Group Corporation', exchange: 'NYSE', sector: 'Technology', industry: 'Consumer Electronics',
+    country: 'Japan', hq: 'Tokyo, Japan', ipoYear: 1961, founded: 1946,
+    marketCap: 155, price: 26, pe: 20, revenue: 90, netIncome: 7.7, revenueGrowth: 3, employees: 113000,
+    blurb: 'A Japanese conglomerate spanning video game consoles, image sensors, music, movies, and consumer electronics.',
+    howItMakesMoney: 'Gaming is its largest segment, followed by music publishing and recording, image sensors, film, and electronics.',
+    products: ['PlayStation', 'Image sensors', 'Music & film studios'],
+    fact: 'Created the Walkman portable cassette player in 1979; its image sensors are found in most premium smartphones.',
+    history: 'Its U.S. listing was among the first by a Japanese company; shares split 5-for-1 in 2024 and rose as gaming and anime businesses grew.',
+    anchors: [15, 20, 20, 24, 17, 16, 18, 19, 17, 21, 26],
+  },
+]
+
+const expansion: {
+  additions: Company[]
+  currentLegacy: Record<string, Partial<Company>>
+  aliases: Record<string, string>
+} = require('../../data/stock-expansion/expanded-companies.json')
+
+// Preserve the original objects and order. Current data is an overlay used only by new puzzles.
+export const COMPANIES: Company[] = [...LEGACY_COMPANIES, ...expansion.additions]
+export const CURRENT_COMPANIES: Company[] = [
+  ...LEGACY_COMPANIES.map(c => ({ ...c, ...expansion.currentLegacy[c.ticker], ticker: c.ticker })),
+  ...expansion.additions,
+]
+export const COMPANY_MAP = new Map(COMPANIES.map(c => [c.ticker, c]))
+export const TICKER_ALIASES = expansion.aliases
+export function canonicalTicker(ticker: string): string {
+  const normalized = ticker.trim().toUpperCase().replace(/[/-]/g, '.')
+  return TICKER_ALIASES[normalized] ?? normalized
+}
+export function getCompany(ticker: string): Company | undefined {
+  return COMPANY_MAP.get(canonicalTicker(ticker))
+}
+export function companyDataDate(c: Company): string {
+  return c.dataAsOf ?? DATA_AS_OF
+}
+export function comparisonDataDate(companies: Company[]): string {
+  const dates = [...new Set(companies.map(companyDataDate))]
+  return dates.join(' / ')
+}
+
+export function metricDataDate(c: Company, metric: string): string {
+  if (c.dataAsOf && LEGACY_COMPANIES.some(original => original.ticker === c.ticker) && ['employees', 'revenueGrowth'].includes(metric)) return DATA_AS_OF
+  return companyDataDate(c)
+}

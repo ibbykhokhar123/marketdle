@@ -1,0 +1,722 @@
+[
+  {
+    "ticker": "SPCX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SKHY",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "HSBC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SHEL",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NVS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SAP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "RY",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "MUFG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "AZN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BHP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TTE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TD",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SAN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "PBR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BUD",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SMFG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "UBS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BBVA",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "UL",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BTI",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "MFG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "HDB",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BMO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "EQNR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "RIO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CNQ",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BNS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ITUB",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "GSK",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SNY",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ING",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "AEM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "E",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SU",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ASX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "DASH",
+    "unavailable": [
+      "profile"
+    ]
+  },
+  {
+    "ticker": "NGG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "LYG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NTES",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BCS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "MFC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CNI",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "AMX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "RELX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NWG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "B",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CVE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TAK",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TRP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "WPM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "DB",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "VALE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NOK",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "DEO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "HONA",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ARGX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ABEV",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CCEP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "UMC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "INFY",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "VYLR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "MT",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TRI",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "FNV",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "AU",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NBIS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "WDS",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "HLN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "HMC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BBD",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SLF",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "FERG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "FMX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "KB",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BSBR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "STM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BBDO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "IX",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "VIK",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CHT",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "VOD",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "EC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ESLT",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CCJ",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ERIC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CBOE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NTR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SHG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "ALC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "GFI",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BSP",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "EGO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "AG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BVN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SBSW",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BTG",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "OR",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "NXE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "SOBO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "QGEN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TFII",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "XPEV",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "CAE",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "EDU",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "JAN",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "QNT",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "YMM",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "KT",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TIMB",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "VEON",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TEO",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "DPC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "PHI",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "TKC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "BEPC",
+    "unavailable": [
+      "quarterly"
+    ]
+  },
+  {
+    "ticker": "UGP",
+    "unavailable": [
+      "quarterly"
+    ]
+  }
+]

@@ -1,0 +1,2110 @@
+{
+  "retrievedDate": "2026-10-20",
+  "sources": [
+    "https://companiesmarketcap.com/?page=1",
+    "https://companiesmarketcap.com/?page=2",
+    "https://companiesmarketcap.com/?page=3",
+    "https://companiesmarketcap.com/?page=4"
+  ],
+  "companies": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "marketCapUsd": 5227101028352.0,
+      "covered": true,
+      "usListingTicker": "NVDA",
+      "canonicalTicker": "NVDA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "marketCapUsd": 4954723975168.0,
+      "covered": true,
+      "usListingTicker": "AAPL",
+      "canonicalTicker": "AAPL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet (Google)",
+      "marketCapUsd": 4114150064128.0,
+      "covered": true,
+      "usListingTicker": "GOOG",
+      "canonicalTicker": "GOOGL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "marketCapUsd": 3949425065984.0,
+      "covered": true,
+      "usListingTicker": "MSFT",
+      "canonicalTicker": "MSFT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "marketCapUsd": 2832809590784.0,
+      "covered": true,
+      "usListingTicker": "AMZN",
+      "canonicalTicker": "AMZN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "marketCapUsd": 2204666167296.0,
+      "covered": true,
+      "usListingTicker": "TSM",
+      "canonicalTicker": "TSM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "marketCapUsd": 1947012956160.0,
+      "covered": true,
+      "usListingTicker": "SPCX",
+      "canonicalTicker": "SPCX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms (Facebook)",
+      "marketCapUsd": 1768606138368.0,
+      "covered": true,
+      "usListingTicker": "META",
+      "canonicalTicker": "META",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "2222.SR",
+      "name": "Saudi Aramco",
+      "marketCapUsd": 1643329538833.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "marketCapUsd": 1596158640128.0,
+      "covered": true,
+      "usListingTicker": "AVGO",
+      "canonicalTicker": "AVGO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "marketCapUsd": 1475985408000.0,
+      "covered": true,
+      "usListingTicker": "TSLA",
+      "canonicalTicker": "TSLA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "marketCapUsd": 1155597991936.0,
+      "covered": true,
+      "usListingTicker": "BRK.B",
+      "canonicalTicker": "BRK.B",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "marketCapUsd": 1144199446528.0,
+      "covered": true,
+      "usListingTicker": "LLY",
+      "canonicalTicker": "LLY",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "Samsung",
+      "marketCapUsd": 1038173105481.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "marketCapUsd": 1013834448896.0,
+      "covered": true,
+      "usListingTicker": "MU",
+      "canonicalTicker": "MU",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "marketCapUsd": 934991953920.0,
+      "covered": true,
+      "usListingTicker": "WMT",
+      "canonicalTicker": "WMT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "marketCapUsd": 890316521472.0,
+      "covered": true,
+      "usListingTicker": "JPM",
+      "canonicalTicker": "JPM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "marketCapUsd": 872949678080.0,
+      "covered": true,
+      "usListingTicker": "AMD",
+      "canonicalTicker": "AMD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "marketCapUsd": 763276361728.0,
+      "covered": true,
+      "usListingTicker": "V",
+      "canonicalTicker": "V",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "marketCapUsd": 731344666624.0,
+      "covered": true,
+      "usListingTicker": "XOM",
+      "canonicalTicker": "XOM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK Hynix",
+      "marketCapUsd": 671931045668.0,
+      "covered": true,
+      "usListingTicker": "SKHY",
+      "canonicalTicker": "SKHY",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "marketCapUsd": 628554661888.0,
+      "covered": true,
+      "usListingTicker": "ASML",
+      "canonicalTicker": "ASML",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "marketCapUsd": 625031249920.0,
+      "covered": true,
+      "usListingTicker": "JNJ",
+      "canonicalTicker": "JNJ",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "marketCapUsd": 543494045696.0,
+      "covered": true,
+      "usListingTicker": "MA",
+      "canonicalTicker": "MA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "marketCapUsd": 510838243328.0,
+      "covered": true,
+      "usListingTicker": "ABBV",
+      "canonicalTicker": "ABBV",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "marketCapUsd": 484682989568.0,
+      "covered": true,
+      "usListingTicker": "INTC",
+      "canonicalTicker": "INTC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TCEHY",
+      "name": "Tencent",
+      "marketCapUsd": 473961510000.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "marketCapUsd": 462829060096.0,
+      "covered": true,
+      "usListingTicker": "PLTR",
+      "canonicalTicker": "PLTR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601939.SS",
+      "name": "China Construction Bank",
+      "marketCapUsd": 450535289088.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "marketCapUsd": 442753515520.0,
+      "covered": true,
+      "usListingTicker": "CVX",
+      "canonicalTicker": "CVX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "marketCapUsd": 440740872192.0,
+      "covered": true,
+      "usListingTicker": "COST",
+      "canonicalTicker": "COST",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "688825.SS",
+      "name": "CXMT",
+      "marketCapUsd": 427601022726.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "marketCapUsd": 420713431040.0,
+      "covered": true,
+      "usListingTicker": "CSCO",
+      "canonicalTicker": "CSCO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola",
+      "marketCapUsd": 402245287936.0,
+      "covered": true,
+      "usListingTicker": "KO",
+      "canonicalTicker": "KO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "marketCapUsd": 397551042560.0,
+      "covered": true,
+      "usListingTicker": "ORCL",
+      "canonicalTicker": "ORCL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601288.SS",
+      "name": "Agricultural Bank of China",
+      "marketCapUsd": 388316878181.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "RO.SW",
+      "name": "Roche",
+      "marketCapUsd": 382107665181.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "marketCapUsd": 376325603328.0,
+      "covered": true,
+      "usListingTicker": "UNH",
+      "canonicalTicker": "UNH",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "marketCapUsd": 370328698880.0,
+      "covered": true,
+      "usListingTicker": "PG",
+      "canonicalTicker": "PG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
+      "marketCapUsd": 365881556992.0,
+      "covered": true,
+      "usListingTicker": "MRK",
+      "canonicalTicker": "MRK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "marketCapUsd": 354112765952.0,
+      "covered": true,
+      "usListingTicker": "BAC",
+      "canonicalTicker": "BAC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601988.SS",
+      "name": "Bank of China",
+      "marketCapUsd": 346464939411.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "1398.HK",
+      "name": "ICBC",
+      "marketCapUsd": 340149473778.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "marketCapUsd": 333374619648.0,
+      "covered": true,
+      "usListingTicker": "CAT",
+      "canonicalTicker": "CAT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "marketCapUsd": 329687760896.0,
+      "covered": true,
+      "usListingTicker": "LRCX",
+      "canonicalTicker": "LRCX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "marketCapUsd": 321391099904.0,
+      "covered": true,
+      "usListingTicker": "AMAT",
+      "canonicalTicker": "AMAT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "HSBC",
+      "name": "HSBC",
+      "marketCapUsd": 317169762304.0,
+      "covered": true,
+      "usListingTicker": "HSBC",
+      "canonicalTicker": "HSBC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot",
+      "marketCapUsd": 314381959168.0,
+      "covered": true,
+      "usListingTicker": "HD",
+      "canonicalTicker": "HD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "marketCapUsd": 311566794752.0,
+      "covered": true,
+      "usListingTicker": "PM",
+      "canonicalTicker": "PM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GE",
+      "name": "General Electric",
+      "marketCapUsd": 311133863936.0,
+      "covered": true,
+      "usListingTicker": "GE",
+      "canonicalTicker": "GE",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SHEL",
+      "name": "Shell",
+      "marketCapUsd": 300201377792.0,
+      "covered": true,
+      "usListingTicker": "SHEL",
+      "canonicalTicker": "SHEL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell",
+      "marketCapUsd": 293465718784.0,
+      "covered": true,
+      "usListingTicker": "DELL",
+      "canonicalTicker": "DELL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "NVS",
+      "name": "Novartis",
+      "marketCapUsd": 292025827328.0,
+      "covered": true,
+      "usListingTicker": "NVS",
+      "canonicalTicker": "NVS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "marketCapUsd": 286021025792.0,
+      "covered": true,
+      "usListingTicker": "NFLX",
+      "canonicalTicker": "NFLX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "marketCapUsd": 283330150400.0,
+      "covered": true,
+      "usListingTicker": "MS",
+      "canonicalTicker": "MS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "marketCapUsd": 278349053952.0,
+      "covered": true,
+      "usListingTicker": "PANW",
+      "canonicalTicker": "PANW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "RY",
+      "name": "Royal Bank Of Canada",
+      "marketCapUsd": 275570753536.0,
+      "covered": true,
+      "usListingTicker": "RY",
+      "canonicalTicker": "RY",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BABA",
+      "name": "Alibaba",
+      "marketCapUsd": 270193983488.0,
+      "covered": true,
+      "usListingTicker": "BABA",
+      "canonicalTicker": "BABA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP",
+      "marketCapUsd": 264289697792.0,
+      "covered": true,
+      "usListingTicker": "SAP",
+      "canonicalTicker": "SAP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "marketCapUsd": 261823922176.0,
+      "covered": true,
+      "usListingTicker": "AZN",
+      "canonicalTicker": "AZN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "marketCapUsd": 260575543296.0,
+      "covered": true,
+      "usListingTicker": "RTX",
+      "canonicalTicker": "RTX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "NESN.SW",
+      "name": "Nestl\u00e9",
+      "marketCapUsd": 259155304388.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "marketCapUsd": 257631354880.0,
+      "covered": true,
+      "usListingTicker": "GS",
+      "canonicalTicker": "GS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "marketCapUsd": 254153195520.0,
+      "covered": true,
+      "usListingTicker": "TMO",
+      "canonicalTicker": "TMO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "marketCapUsd": 253681942528.0,
+      "covered": true,
+      "usListingTicker": "TXN",
+      "canonicalTicker": "TXN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "600519.SS",
+      "name": "Kweichow Moutai",
+      "marketCapUsd": 249342363522.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "marketCapUsd": 246734716928.0,
+      "covered": true,
+      "usListingTicker": "WFC",
+      "canonicalTicker": "WFC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "OR.PA",
+      "name": "L'Or\u00e9al",
+      "marketCapUsd": 241697747971.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "MUFG",
+      "name": "Mitsubishi UFJ Financial",
+      "marketCapUsd": 241548705792.0,
+      "covered": true,
+      "usListingTicker": "MUFG",
+      "canonicalTicker": "MUFG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "marketCapUsd": 237305004032.0,
+      "covered": true,
+      "usListingTicker": "AMGN",
+      "canonicalTicker": "AMGN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "marketCapUsd": 237124780032.0,
+      "covered": true,
+      "usListingTicker": "GEV",
+      "canonicalTicker": "GEV",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "marketCapUsd": 236091768832.0,
+      "covered": true,
+      "usListingTicker": "ARM",
+      "canonicalTicker": "ARM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "marketCapUsd": 232812068864.0,
+      "covered": true,
+      "usListingTicker": "CRWD",
+      "canonicalTicker": "CRWD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "0857.HK",
+      "name": "PetroChina",
+      "marketCapUsd": 232741621900.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "TM",
+      "name": "Toyota",
+      "marketCapUsd": 231474331648.0,
+      "covered": true,
+      "usListingTicker": "TM",
+      "canonicalTicker": "TM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde",
+      "marketCapUsd": 231361331200.0,
+      "covered": true,
+      "usListingTicker": "LIN",
+      "canonicalTicker": "LIN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "marketCapUsd": 228521312256.0,
+      "covered": true,
+      "usListingTicker": "ANET",
+      "canonicalTicker": "ANET",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "marketCapUsd": 227921149952.0,
+      "covered": true,
+      "usListingTicker": "IBM",
+      "canonicalTicker": "IBM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens",
+      "marketCapUsd": 223518652512.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "marketCapUsd": 223206998016.0,
+      "covered": true,
+      "usListingTicker": "SHOP",
+      "canonicalTicker": "SHOP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "0941.HK",
+      "name": "China Mobile",
+      "marketCapUsd": 222418977697.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "marketCapUsd": 216066572288.0,
+      "covered": true,
+      "usListingTicker": "MRVL",
+      "canonicalTicker": "MRVL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "marketCapUsd": 214978134016.0,
+      "covered": true,
+      "usListingTicker": "AXP",
+      "canonicalTicker": "AXP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH",
+      "marketCapUsd": 214266461637.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "IHC.AE",
+      "name": "International Holding Company",
+      "marketCapUsd": 212987070852.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "marketCapUsd": 211071746048.0,
+      "covered": true,
+      "usListingTicker": "KLAC",
+      "canonicalTicker": "KLAC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BHP",
+      "name": "BHP Group",
+      "marketCapUsd": 208070721536.0,
+      "covered": true,
+      "usListingTicker": "BHP",
+      "canonicalTicker": "BHP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "marketCapUsd": 205502791680.0,
+      "covered": true,
+      "usListingTicker": "C",
+      "canonicalTicker": "C",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "2454.TW",
+      "name": "MediaTek",
+      "marketCapUsd": 203356672864.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "marketCapUsd": 199519879168.0,
+      "covered": true,
+      "usListingTicker": "CRM",
+      "canonicalTicker": "CRM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TD",
+      "name": "Toronto Dominion Bank",
+      "marketCapUsd": 199440318464.0,
+      "covered": true,
+      "usListingTicker": "TD",
+      "canonicalTicker": "TD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "TTE",
+      "name": "TotalEnergies",
+      "marketCapUsd": 198610993152.0,
+      "covered": true,
+      "usListingTicker": "TTE",
+      "canonicalTicker": "TTE",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ITX.MC",
+      "name": "Inditex",
+      "marketCapUsd": 198005093281.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "marketCapUsd": 197335056384.0,
+      "covered": true,
+      "usListingTicker": "SNDK",
+      "canonicalTicker": "SNDK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol",
+      "marketCapUsd": 195600482304.0,
+      "covered": true,
+      "usListingTicker": "APH",
+      "canonicalTicker": "APH",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "marketCapUsd": 194065383424.0,
+      "covered": true,
+      "usListingTicker": "GILD",
+      "canonicalTicker": "GILD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney",
+      "marketCapUsd": 192819118080.0,
+      "covered": true,
+      "usListingTicker": "DIS",
+      "canonicalTicker": "DIS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "marketCapUsd": 192396722176.0,
+      "covered": true,
+      "usListingTicker": "ADI",
+      "canonicalTicker": "ADI",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SAN",
+      "name": "Santander",
+      "marketCapUsd": 189824417792.0,
+      "covered": true,
+      "usListingTicker": "SAN",
+      "canonicalTicker": "SAN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM",
+      "marketCapUsd": 187630075904.0,
+      "covered": true,
+      "usListingTicker": "QCOM",
+      "canonicalTicker": "QCOM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "marketCapUsd": 185053691904.0,
+      "covered": true,
+      "usListingTicker": "VZ",
+      "canonicalTicker": "VZ",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ALV.DE",
+      "name": "Allianz SE",
+      "marketCapUsd": 183953190569.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "marketCapUsd": 183383638016.0,
+      "covered": true,
+      "usListingTicker": "BLK",
+      "canonicalTicker": "BLK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PEP",
+      "name": "Pepsico",
+      "marketCapUsd": 182634577920.0,
+      "covered": true,
+      "usListingTicker": "PEP",
+      "canonicalTicker": "PEP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "CBA.AX",
+      "name": "Commonwealth Bank",
+      "marketCapUsd": 182277200531.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "300750.SZ",
+      "name": "CATL",
+      "marketCapUsd": 179828658111.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "marketCapUsd": 178448744448.0,
+      "covered": true,
+      "usListingTicker": "ABT",
+      "canonicalTicker": "ABT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "marketCapUsd": 175335194624.0,
+      "covered": true,
+      "usListingTicker": "COP",
+      "canonicalTicker": "COP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PRX.AS",
+      "name": "Prosus",
+      "marketCapUsd": 175142021859.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald",
+      "marketCapUsd": 174447788032.0,
+      "covered": true,
+      "usListingTicker": "MCD",
+      "canonicalTicker": "MCD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk",
+      "marketCapUsd": 173655883776.0,
+      "covered": true,
+      "usListingTicker": "NVO",
+      "canonicalTicker": "NVO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AIR.PA",
+      "name": "Airbus",
+      "marketCapUsd": 172170795408.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "marketCapUsd": 171617173504.0,
+      "covered": true,
+      "usListingTicker": "PFE",
+      "canonicalTicker": "PFE",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower",
+      "marketCapUsd": 171553783808.0,
+      "covered": true,
+      "usListingTicker": "WELL",
+      "canonicalTicker": "WELL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "marketCapUsd": 171374723672.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "marketCapUsd": 170862051328.0,
+      "covered": true,
+      "usListingTicker": "UNP",
+      "canonicalTicker": "UNP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SCCO",
+      "name": "Southern Copper",
+      "marketCapUsd": 170844504064.0,
+      "covered": true,
+      "usListingTicker": "SCCO",
+      "canonicalTicker": "SCCO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company (John Deere)",
+      "marketCapUsd": 170457186304.0,
+      "covered": true,
+      "usListingTicker": "DE",
+      "canonicalTicker": "DE",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "3968.HK",
+      "name": "CM Bank",
+      "marketCapUsd": 170310998834.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "marketCapUsd": 169213952000.0,
+      "covered": true,
+      "usListingTicker": "TMUS",
+      "canonicalTicker": "TMUS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601088.SS",
+      "name": "China Shenhua Energy",
+      "marketCapUsd": 166904367283.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron",
+      "marketCapUsd": 165996289354.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "D05.SI",
+      "name": "DBS Group",
+      "marketCapUsd": 165680954731.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "PBR",
+      "name": "Petrobras",
+      "marketCapUsd": 165620219904.0,
+      "covered": true,
+      "usListingTicker": "PBR",
+      "canonicalTicker": "PBR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "6098.T",
+      "name": "Recruit",
+      "marketCapUsd": 165096975819.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "NEE",
+      "name": "Nextera Energy",
+      "marketCapUsd": 164470833152.0,
+      "covered": true,
+      "usListingTicker": "NEE",
+      "canonicalTicker": "NEE",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "9984.T",
+      "name": "SoftBank Group Corp.",
+      "marketCapUsd": 164102514696.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "BUD",
+      "name": "Anheuser-Busch Inbev",
+      "marketCapUsd": 164087513088.0,
+      "covered": true,
+      "usListingTicker": "BUD",
+      "canonicalTicker": "BUD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "6501.T",
+      "name": "Hitachi",
+      "marketCapUsd": 163737077151.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies",
+      "marketCapUsd": 162380496896.0,
+      "covered": true,
+      "usListingTicker": "TJX",
+      "canonicalTicker": "TJX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "marketCapUsd": 160482869248.0,
+      "covered": true,
+      "usListingTicker": "T",
+      "canonicalTicker": "T",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "IBE.MC",
+      "name": "Iberdrola",
+      "marketCapUsd": 159198548878.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "marketCapUsd": 157637591040.0,
+      "covered": true,
+      "usListingTicker": "DHR",
+      "canonicalTicker": "DHR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "RMS.PA",
+      "name": "Herm\u00e8s",
+      "marketCapUsd": 157600763722.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "marketCapUsd": 157179314176.0,
+      "covered": true,
+      "usListingTicker": "SCHW",
+      "canonicalTicker": "SCHW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ABBN.SW",
+      "name": "ABB",
+      "marketCapUsd": 155599767116.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "marketCapUsd": 154735788032.0,
+      "covered": true,
+      "usListingTicker": "ISRG",
+      "canonicalTicker": "ISRG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SU.PA",
+      "name": "Schneider Electric",
+      "marketCapUsd": 154640376250.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "6857.T",
+      "name": "Advantest",
+      "marketCapUsd": 154612250575.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "marketCapUsd": 154603716608.0,
+      "covered": true,
+      "usListingTicker": "NOW",
+      "canonicalTicker": "NOW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "marketCapUsd": 153519849472.0,
+      "covered": true,
+      "usListingTicker": "STX",
+      "canonicalTicker": "STX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "Sumitomo Mitsui Financial Group",
+      "marketCapUsd": 151599792128.0,
+      "covered": true,
+      "usListingTicker": "SMFG",
+      "canonicalTicker": "SMFG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "marketCapUsd": 150431776768.0,
+      "covered": true,
+      "usListingTicker": "BA",
+      "canonicalTicker": "BA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "marketCapUsd": 148322844672.0,
+      "covered": true,
+      "usListingTicker": "ETN",
+      "canonicalTicker": "ETN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SONY",
+      "name": "Sony",
+      "marketCapUsd": 147187089408.0,
+      "covered": true,
+      "usListingTicker": "SONY",
+      "canonicalTicker": "SONY",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "0883.HK",
+      "name": "CNOOC",
+      "marketCapUsd": 146678324541.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "marketCapUsd": 146327584768.0,
+      "covered": true,
+      "usListingTicker": "ACN",
+      "canonicalTicker": "ACN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "9983.T",
+      "name": "Fast Retailing",
+      "marketCapUsd": 146217834981.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "SAF.PA",
+      "name": "Safran",
+      "marketCapUsd": 145578472490.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "RR.L",
+      "name": "Rolls-Royce Holdings",
+      "marketCapUsd": 145563428596.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "601138.SS",
+      "name": "Foxconn Industrial Internet",
+      "marketCapUsd": 145173086124.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "UBS",
+      "name": "UBS",
+      "marketCapUsd": 144606085120.0,
+      "covered": true,
+      "usListingTicker": "UBS",
+      "canonicalTicker": "UBS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601628.SS",
+      "name": "China Life Insurance",
+      "marketCapUsd": 144450376380.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "RIO",
+      "name": "Rio Tinto",
+      "marketCapUsd": 143382511616.0,
+      "covered": true,
+      "usListingTicker": "RIO",
+      "canonicalTicker": "RIO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "marketCapUsd": 141263355904.0,
+      "covered": true,
+      "usListingTicker": "IBKR",
+      "canonicalTicker": "IBKR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "marketCapUsd": 140814106624.0,
+      "covered": true,
+      "usListingTicker": "UBER",
+      "canonicalTicker": "UBER",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "UL",
+      "name": "Unilever",
+      "marketCapUsd": 140453822464.0,
+      "covered": true,
+      "usListingTicker": "UL",
+      "canonicalTicker": "UL",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BBVA",
+      "name": "Banco Bilbao Vizcaya Argentaria",
+      "marketCapUsd": 140194562048.0,
+      "covered": true,
+      "usListingTicker": "BBVA",
+      "canonicalTicker": "BBVA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601318.SS",
+      "name": "Ping An Insurance",
+      "marketCapUsd": 139070162332.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "marketCapUsd": 138681581568.0,
+      "covered": true,
+      "usListingTicker": "MPC",
+      "canonicalTicker": "MPC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "marketCapUsd": 138227591091.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CB",
+      "name": "Chubb",
+      "marketCapUsd": 138019897344.0,
+      "covered": true,
+      "usListingTicker": "CB",
+      "canonicalTicker": "CB",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "marketCapUsd": 136373452800.0,
+      "covered": true,
+      "usListingTicker": "WDC",
+      "canonicalTicker": "WDC",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone Group",
+      "marketCapUsd": 131889152000.0,
+      "covered": true,
+      "usListingTicker": "BX",
+      "canonicalTicker": "BX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "marketCapUsd": 130360852480.0,
+      "covered": true,
+      "usListingTicker": "VRTX",
+      "canonicalTicker": "VRTX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "marketCapUsd": 129157775360.0,
+      "covered": true,
+      "usListingTicker": "SPGI",
+      "canonicalTicker": "SPGI",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive",
+      "marketCapUsd": 128808165376.0,
+      "covered": true,
+      "usListingTicker": "PGR",
+      "canonicalTicker": "PGR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "INVE-B.ST",
+      "name": "Investor AB",
+      "marketCapUsd": 128020484016.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "2308.TW",
+      "name": "Delta Electronics",
+      "marketCapUsd": 127763694255.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "BP",
+      "name": "BP",
+      "marketCapUsd": 127208456192.0,
+      "covered": true,
+      "usListingTicker": "BP",
+      "canonicalTicker": "BP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BTI",
+      "name": "British American Tobacco",
+      "marketCapUsd": 127111643136.0,
+      "covered": true,
+      "usListingTicker": "BTI",
+      "canonicalTicker": "BTI",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings (Booking.com)",
+      "marketCapUsd": 127018074112.0,
+      "covered": true,
+      "usListingTicker": "BKNG",
+      "canonicalTicker": "BKNG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "marketCapUsd": 126637195264.0,
+      "covered": true,
+      "usListingTicker": "LMT",
+      "canonicalTicker": "LMT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "marketCapUsd": 125994639360.0,
+      "covered": true,
+      "usListingTicker": "BMY",
+      "canonicalTicker": "BMY",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "UCG.MI",
+      "name": "UniCredit",
+      "marketCapUsd": 125597799423.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CFR.SW",
+      "name": "Compagnie Financi\u00e8re Richemont",
+      "marketCapUsd": 125421186752.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "marketCapUsd": 125413670912.0,
+      "covered": true,
+      "usListingTicker": "FTNT",
+      "canonicalTicker": "FTNT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "marketCapUsd": 124793520128.0,
+      "covered": true,
+      "usListingTicker": "VLO",
+      "canonicalTicker": "VLO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria Group",
+      "marketCapUsd": 124629680128.0,
+      "covered": true,
+      "usListingTicker": "MO",
+      "canonicalTicker": "MO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ENR.F",
+      "name": "Siemens Energy",
+      "marketCapUsd": 124352576800.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "6861.T",
+      "name": "Keyence",
+      "marketCapUsd": 124073425680.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "PLD",
+      "name": "Prologis",
+      "marketCapUsd": 123912486912.0,
+      "covered": true,
+      "usListingTicker": "PLD",
+      "canonicalTicker": "PLD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "marketCapUsd": 123657068544.0,
+      "covered": true,
+      "usListingTicker": "COF",
+      "canonicalTicker": "COF",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "AI.PA",
+      "name": "Air Liquide",
+      "marketCapUsd": 123516530710.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "name": "Bharti Airtel",
+      "marketCapUsd": 123254824131.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "marketCapUsd": 123081793536.0,
+      "covered": true,
+      "usListingTicker": "NEM",
+      "canonicalTicker": "NEM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "marketCapUsd": 121182445568.0,
+      "covered": true,
+      "usListingTicker": "CVS",
+      "canonicalTicker": "CVS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "marketCapUsd": 121044819968.0,
+      "covered": true,
+      "usListingTicker": "MDT",
+      "canonicalTicker": "MDT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson",
+      "marketCapUsd": 120102060032.0,
+      "covered": true,
+      "usListingTicker": "MCK",
+      "canonicalTicker": "MCK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PH",
+      "name": "Parker-Hannifin",
+      "marketCapUsd": 119127048192.0,
+      "covered": true,
+      "usListingTicker": "PH",
+      "canonicalTicker": "PH",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MFG",
+      "name": "Mizuho Financial Group",
+      "marketCapUsd": 118671679488.0,
+      "covered": true,
+      "usListingTicker": "MFG",
+      "canonicalTicker": "MFG",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "HDB",
+      "name": "HDFC Bank",
+      "marketCapUsd": 118516711424.0,
+      "covered": true,
+      "usListingTicker": "HDB",
+      "canonicalTicker": "HDB",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "marketCapUsd": 116759633920.0,
+      "covered": true,
+      "usListingTicker": "SYK",
+      "canonicalTicker": "SYK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ISP.MI",
+      "name": "Intesa Sanpaolo",
+      "marketCapUsd": 116453027497.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "BMO",
+      "name": "Bank of Montreal",
+      "marketCapUsd": 116407099392.0,
+      "covered": true,
+      "usListingTicker": "BMO",
+      "canonicalTicker": "BMO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PDD",
+      "name": "PDD Holdings (Pinduoduo)",
+      "marketCapUsd": 116191854592.0,
+      "covered": true,
+      "usListingTicker": "PDD",
+      "canonicalTicker": "PDD",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "marketCapUsd": 116127064064.0,
+      "covered": true,
+      "usListingTicker": "PSX",
+      "canonicalTicker": "PSX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing",
+      "marketCapUsd": 116002643968.0,
+      "covered": true,
+      "usListingTicker": "ADP",
+      "canonicalTicker": "ADP",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "601899.SS",
+      "name": "Zijin Mining",
+      "marketCapUsd": 115912179233.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "300308.SZ",
+      "name": "Zhongji Innolight",
+      "marketCapUsd": 114478015834.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning",
+      "marketCapUsd": 113695694848.0,
+      "covered": true,
+      "usListingTicker": "GLW",
+      "canonicalTicker": "GLW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "marketCapUsd": 113281802240.0,
+      "covered": true,
+      "usListingTicker": "SBUX",
+      "canonicalTicker": "SBUX",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "002594.SZ",
+      "name": "BYD",
+      "marketCapUsd": 112964892689.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "marketCapUsd": 112758398976.0,
+      "covered": true,
+      "usListingTicker": "SNOW",
+      "canonicalTicker": "SNOW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BNS",
+      "name": "Scotiabank",
+      "marketCapUsd": 112286908416.0,
+      "covered": true,
+      "usListingTicker": "BNS",
+      "canonicalTicker": "BNS",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ZURN.SW",
+      "name": "Zurich Insurance Group",
+      "marketCapUsd": 112175404414.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CNQ",
+      "name": "Canadian Natural Resources",
+      "marketCapUsd": 111692070912.0,
+      "covered": true,
+      "usListingTicker": "CNQ",
+      "canonicalTicker": "CNQ",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's Companies",
+      "marketCapUsd": 111386050560.0,
+      "covered": true,
+      "usListingTicker": "LOW",
+      "canonicalTicker": "LOW",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corporation",
+      "marketCapUsd": 109125373909.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "601328.SS",
+      "name": "Bank of Communications",
+      "marketCapUsd": 109087813851.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "600900.SS",
+      "name": "China Yangtze Power",
+      "marketCapUsd": 108971930200.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "EQNR",
+      "name": "Equinor",
+      "marketCapUsd": 108378734592.0,
+      "covered": true,
+      "usListingTicker": "EQNR",
+      "canonicalTicker": "EQNR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SPOT",
+      "name": "Spotify",
+      "marketCapUsd": 108172607488.0,
+      "covered": true,
+      "usListingTicker": "SPOT",
+      "canonicalTicker": "SPOT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "IBN",
+      "name": "ICICI Bank",
+      "marketCapUsd": 107260862464.0,
+      "covered": true,
+      "usListingTicker": "IBN",
+      "canonicalTicker": "IBN",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "BNP.PA",
+      "name": "BNP Paribas",
+      "marketCapUsd": 107087534615.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "ITUB",
+      "name": "Ita\u00fa Unibanco",
+      "marketCapUsd": 106913644544.0,
+      "covered": true,
+      "usListingTicker": "ITUB",
+      "canonicalTicker": "ITUB",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ENB",
+      "name": "Enbridge",
+      "marketCapUsd": 106739318784.0,
+      "covered": true,
+      "usListingTicker": "ENB",
+      "canonicalTicker": "ENB",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group",
+      "marketCapUsd": 106187350016.0,
+      "covered": true,
+      "usListingTicker": "CME",
+      "canonicalTicker": "CME",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "marketCapUsd": 105949134848.0,
+      "covered": true,
+      "usListingTicker": "ABNB",
+      "canonicalTicker": "ABNB",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "marketCapUsd": 104349425664.0,
+      "covered": true,
+      "usListingTicker": "SO",
+      "canonicalTicker": "SO",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "2317.TW",
+      "name": "Foxconn (Hon Hai Precision Industry)",
+      "marketCapUsd": 104162749244.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "marketCapUsd": 103864893440.0,
+      "covered": true,
+      "usListingTicker": "NET",
+      "canonicalTicker": "NET",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "marketCapUsd": 103605051392.0,
+      "covered": true,
+      "usListingTicker": "MAR",
+      "canonicalTicker": "MAR",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "HCA",
+      "name": "HCA Healthcare",
+      "marketCapUsd": 103321886720.0,
+      "covered": true,
+      "usListingTicker": "HCA",
+      "canonicalTicker": "HCA",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GMBXF",
+      "name": "Grupo M\u00e9xico",
+      "marketCapUsd": 103291699200.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CM",
+      "name": "CIBC (Canadian Imperial Bank of Commerce)",
+      "marketCapUsd": 102732898304.0,
+      "covered": true,
+      "usListingTicker": "CM",
+      "canonicalTicker": "CM",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "ENEL.MI",
+      "name": "Enel",
+      "marketCapUsd": 102647441301.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "601658.SS",
+      "name": "Postal Savings Bank of China",
+      "marketCapUsd": 101783103461.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "8001.T",
+      "name": "It\u014dch\u016b Sh\u014dji",
+      "marketCapUsd": 101564414225.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "TT",
+      "name": "Trane Technologies",
+      "marketCapUsd": 101523103744.0,
+      "covered": true,
+      "usListingTicker": "TT",
+      "canonicalTicker": "TT",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "GSK",
+      "name": "GSK plc",
+      "marketCapUsd": 101437980672.0,
+      "covered": true,
+      "usListingTicker": "GSK",
+      "canonicalTicker": "GSK",
+      "classification": "US exchange listing confirmed by Nasdaq directory"
+    },
+    {
+      "ticker": "O39.SI",
+      "name": "OCBC Bank",
+      "marketCapUsd": 101337734605.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    },
+    {
+      "ticker": "CS.PA",
+      "name": "AXA",
+      "marketCapUsd": 100687961728.0,
+      "covered": null,
+      "usListingTicker": null,
+      "canonicalTicker": null,
+      "classification": "Foreign/OTC source ticker; not a US exchange listing under this symbol"
+    }
+  ],
+  "eligibleUSListings": 164,
+  "uncoveredUSListings": []
+}

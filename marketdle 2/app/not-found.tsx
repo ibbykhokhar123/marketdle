@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function NotFound(){return <div className="mx-auto max-w-xl px-5 py-24 text-center"><p className="eyebrow justify-center">404 · OFF THE EXCHANGE</p><h1 className="mt-4 text-3xl font-semibold">This ticker isn’t listed.</h1><p className="mt-4 text-sm text-muted-foreground">The page you’re looking for isn’t here. There’s a fresh challenge waiting on the dashboard.</p><Link href="/" className="primary-action mx-auto mt-7 w-fit">Back to the dashboard →</Link></div>}

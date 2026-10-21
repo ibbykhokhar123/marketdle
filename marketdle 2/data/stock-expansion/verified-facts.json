@@ -1,0 +1,59 @@
+{
+  "PLTR": {
+    "ipoYear": 2020,
+    "founded": 2003,
+    "fact": "Its public-market debut used a direct listing rather than a traditional underwritten IPO.",
+    "sources": [
+      "https://investors.palantir.com/news-details/2020/Palantir-to-Commence-Trading-on-NYSE-on-September-30-2020/",
+      "https://investors.palantir.com/files/2021%20Annual%20Report%20on%20Form%2010-K.pdf"
+    ]
+  },
+  "MU": {
+    "ipoYear": 1984,
+    "founded": 1978,
+    "fact": "Its company timeline records a Nasdaq public listing in 1984, six years after its founding.",
+    "sources": [
+      "https://www.micron.com/about/company/company-timeline"
+    ]
+  },
+  "BAM": {
+    "country": "United States",
+    "hq": "New York, NY",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "sources": [
+      "https://stockanalysis.com/stocks/bam/company/"
+    ]
+  },
+  "CBOE": {
+    "country": "United States",
+    "hq": "Chicago, IL",
+    "founded": 1973,
+    "ipoYear": 2010,
+    "sources": [
+      "https://stockanalysis.com/stocks/cboe/company/"
+    ]
+  },
+  "KLAR": {
+    "country": "United Kingdom",
+    "hq": "London, United Kingdom",
+    "founded": 2005,
+    "ipoYear": 2025,
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "sources": [
+      "https://stockanalysis.com/stocks/klar/company/"
+    ]
+  },
+  "DPC": {
+    "country": "United Kingdom",
+    "hq": "Derby, United Kingdom",
+    "founded": 1778,
+    "ipoYear": 2026,
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "sources": [
+      "https://stockanalysis.com/stocks/dpc/company/"
+    ]
+  }
+}

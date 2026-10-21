@@ -1,0 +1,569 @@
+[
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/play/wordle",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/play/wordle",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/play/wordle",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/play/wordle",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/play/wordle",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/play/wordle",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/play/wordle",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/play/wordle",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/play/wordle",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/play/higher-lower",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/play/higher-lower",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/play/higher-lower",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/play/higher-lower",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 768,
+    "height": 1024,
+    "route": "/play/higher-lower",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/play/higher-lower",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/play/higher-lower",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/play/higher-lower",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/play/higher-lower",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/play/chart",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/play/chart",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/play/chart",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/play/chart",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/play/chart",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/play/chart",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/play/chart",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/play/chart",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/play/chart",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/play/ranking",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/play/ranking",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/play/ranking",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/play/ranking",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/play/ranking",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/play/ranking",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/play/ranking",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/play/ranking",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/play/ranking",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/play/trivia",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/play/trivia",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/play/trivia",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/play/trivia",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 768,
+    "height": 1024,
+    "route": "/play/trivia",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "client": 1024,
+    "height": 900,
+    "route": "/play/trivia",
+    "scroll": 1024,
+    "width": 1024
+  },
+  {
+    "client": 1280,
+    "height": 900,
+    "route": "/play/trivia",
+    "scroll": 1280,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/play/trivia",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/play/trivia",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/stats",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/stats",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/stats",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/stats",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/stats",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/stats",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/stats",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/stats",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/stats",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/leaderboard",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/leaderboard",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/leaderboard",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/leaderboard",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 768,
+    "height": 1024,
+    "route": "/leaderboard",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/leaderboard",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/leaderboard",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/leaderboard",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/leaderboard",
+    "scroll": 829,
+    "width": 844
+  },
+  {
+    "client": 305,
+    "height": 740,
+    "route": "/about",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "height": 812,
+    "route": "/about",
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "height": 844,
+    "route": "/about",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "height": 932,
+    "route": "/about",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "height": 1024,
+    "route": "/about",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "height": 900,
+    "route": "/about",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "height": 900,
+    "route": "/about",
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "client": 553,
+    "height": 320,
+    "route": "/about",
+    "scroll": 553,
+    "width": 568
+  },
+  {
+    "client": 829,
+    "height": 390,
+    "route": "/about",
+    "scroll": 829,
+    "width": 844
+  }
+]

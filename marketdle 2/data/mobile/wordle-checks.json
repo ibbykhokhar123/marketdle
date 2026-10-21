@@ -1,0 +1,58 @@
+[
+  {
+    "client": 305,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 360,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 360,
+    "width": 375
+  },
+  {
+    "client": 375,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1265,
+    "clipped": [],
+    "companyCells": 1,
+    "feedbackCells": 7,
+    "scroll": 1265,
+    "width": 1280
+  }
+]

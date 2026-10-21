@@ -1,0 +1,569 @@
+Ticker,Company,Exchange,Market cap USD,Retrieved date,Financial period,Historical observations,Unavailable current fields,Preserved original
+NVDA,NVIDIA Corporation,NASDAQ,5231869000000.0,2026-10-20,2026-07-26,1583,employees; revenueGrowth; founded,True
+AAPL,Apple Inc.,NASDAQ,5004928089200.0,2026-10-20,2026-06-27,1583,employees; revenueGrowth; founded,True
+GOOGL,Alphabet Inc.,NASDAQ,4209321400000.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+MSFT,Microsoft Corporation,NASDAQ,3961677030358.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+AMZN,"Amazon.com, Inc.",NASDAQ,2830867996971.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+TSM,Taiwan Semiconductor Manufacturing Company Ltd.,NYSE,2179473090759.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,True
+SPCX,Space Exploration Technologies Corp.,NASDAQ,2008234687635.0,2026-10-20,,89,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+META,"Meta Platforms, Inc.",NASDAQ,1797112791364.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+AVGO,Broadcom Inc.,NASDAQ,1597208816530.0,2026-10-20,2026-08-02,1583,employees; revenueGrowth; founded,True
+TSLA,"Tesla, Inc.",NASDAQ,1453670413836.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+BRK.B,Berkshire Hathaway Inc.,NYSE,1174265100987.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+LLY,Eli Lilly and Company,NYSE,1167602822002.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+SKHY,SK hynix Inc.,NASDAQ,1041330139850.0,2026-10-20,,71,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MU,"Micron Technology, Inc.",NASDAQ,1023824864539.0,2026-10-20,2026-09-03,1583,employees; revenueGrowth,False
+WMT,Walmart Inc.,NASDAQ,941735678807.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,True
+JPM,J P Morgan Chase & Co,NYSE,886584841618.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+AMD,"Advanced Micro Devices, Inc.",NASDAQ,878353196348.0,2026-10-20,2026-06-27,1583,ipoYear; employees; revenueGrowth; founded,True
+XOM,ExxonMobil Holdings Corporation,NYSE,733071664229.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+V,Visa Inc.,NYSE,719919415257.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+ASML,ASML Holding N.V.,NASDAQ,634829144375.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,True
+JNJ,Johnson & Johnson,NYSE,611608164933.0,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,True
+MA,Mastercard Incorporated,NYSE,539972527015.99994,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ABBV,AbbVie Inc.,NYSE,499528714124.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+INTC,Intel Corporation,NASDAQ,486384947097.0,2026-10-20,2026-06-27,1583,ipoYear; pe; employees; revenueGrowth; founded,True
+PLTR,Palantir Technologies Inc.,NASDAQ,466358683142.0,2026-10-20,2026-06-30,1520,employees; revenueGrowth,False
+CVX,Chevron Corporation,NYSE,443303800747.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+COST,Costco Wholesale Corporation,NASDAQ,441148560810.0,2026-10-20,2026-08-30,1583,ipoYear; employees; revenueGrowth; founded,True
+CSCO,"Cisco Systems, Inc.",NASDAQ,419885501975.0,2026-10-20,2026-07-25,1583,employees; revenueGrowth; founded,True
+KO,Coca-Cola Company (The),NYSE,401944150281.0,2026-10-20,2026-07-03,1583,ipoYear; employees; revenueGrowth; founded,True
+ORCL,Oracle Corporation,NYSE,392852233899.0,2026-10-20,2026-08-31,1583,employees; revenueGrowth; founded,True
+PG,Procter & Gamble Company (The),NYSE,366539849231.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+UNH,UnitedHealth Group Incorporated,NYSE,365213391347.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+MRK,"Merck & Company, Inc.",NYSE,354359862366.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BAC,Bank of America Corporation,NYSE,352364590112.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+LRCX,Lam Research Corporation,NASDAQ,340637711336.0,2026-10-20,2026-06-28,1583,employees; revenueGrowth; founded,False
+CAT,"Caterpillar, Inc.",NYSE,333627437687.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+AMAT,"Applied Materials, Inc.",NASDAQ,327843039678.0,2026-10-20,2026-07-26,1583,employees; revenueGrowth; founded,False
+GE,GE Aerospace,NYSE,322972459047.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HSBC,HSBC Holdings plc,NYSE,319163133667.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PM,Philip Morris International Inc,NYSE,313359231911.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HD,"Home Depot, Inc. (The)",NYSE,309164061305.0,2026-10-20,2026-08-02,1583,ipoYear; employees; revenueGrowth; founded,True
+NFLX,"Netflix, Inc.",NASDAQ,290851186369.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+SHEL,Shell PLC,NYSE,289939754984.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+DELL,Dell Technologies Inc.,NYSE,289574558860.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+NVS,Novartis AG,NYSE,286604382186.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PANW,"Palo Alto Networks, Inc.",NASDAQ,283805100000.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+MS,Morgan Stanley,NYSE,280298966133.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SAP,SAP SE,NYSE,277678811559.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+RY,Royal Bank Of Canada,NYSE,271763569544.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BABA,Alibaba Group Holding Limited,NYSE,263009306974.00003,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+RTX,RTX Corporation,NYSE,258917817044.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MUFG,Mitsubishi UFJ Financial Group Inc,NYSE,257054618527.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+GS,"The Goldman Sachs Group, Inc.",NYSE,255002095698.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+AZN,AstraZeneca PLC,NYSE,254241506223.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+TM,Toyota Motor Corp Ltd Ord,NYSE,252936483810.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TXN,Texas Instruments Incorporated,NASDAQ,252193348489.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TMO,Thermo Fisher Scientific Inc,NYSE,251198911163.0,2026-10-20,2026-06-27,1583,ipoYear; employees; revenueGrowth; founded,False
+WFC,Wells Fargo & Company,NYSE,247363145685.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ARM,Arm Holdings plc,NASDAQ,242657800219.0,2026-10-20,,777,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+GEV,GE Vernova Inc.,NYSE,241948078324.0,2026-10-20,2026-06-30,643,employees; revenueGrowth; founded,False
+CRWD,"CrowdStrike Holdings, Inc.",NASDAQ,233559537460.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+LIN,Linde plc,NASDAQ,232075853261.0,2026-10-20,2026-06-30,912,ipoYear; employees; revenueGrowth; founded,False
+ANET,"Arista Networks, Inc.",NYSE,230741049352.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AMGN,Amgen Inc.,NASDAQ,229736164205.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+IBM,International Business Machines Corporation,NYSE,222711148452.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+SHOP,Shopify Inc.,NASDAQ,221661433937.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+KLAC,KLA Corporation,NASDAQ,217153080269.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+AXP,American Express Company,NYSE,213674784260.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BHP,BHP Group Limited,NYSE,211552830080.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+MRVL,"Marvell Technology, Inc.",NASDAQ,207904221000.0,2026-10-20,2026-08-01,1583,employees; revenueGrowth; founded,False
+C,Citigroup Inc.,NYSE,204127282123.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CRM,"Salesforce, Inc.",NYSE,199536350000.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,True
+SNDK,Sandisk Corporation,NASDAQ,199261691344.0,2026-10-20,2026-07-03,422,ipoYear; employees; revenueGrowth; founded,False
+APH,Amphenol Corporation,NYSE,197967823856.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TTE,TotalEnergies SE,NYSE,196258469270.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TD,Toronto Dominion Bank (The),NYSE,196073674964.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ADI,"Analog Devices, Inc.",NASDAQ,191088391123.0,2026-10-20,2026-08-01,1583,ipoYear; employees; revenueGrowth; founded,False
+GILD,"Gilead Sciences, Inc.",NASDAQ,189799935576.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+DIS,Walt Disney Company (The),NYSE,189227617590.0,2026-10-20,2026-06-27,1583,ipoYear; employees; revenueGrowth; founded,True
+SAN,"Banco Santander, S.A.",NYSE,188460703824.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+VZ,Verizon Communications Inc.,NYSE,183433325168.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+QCOM,QUALCOMM Incorporated,NASDAQ,182247092311.0,2026-10-20,2026-06-28,1583,employees; revenueGrowth; founded,False
+PEP,"PepsiCo, Inc.",NASDAQ,182021327658.0,2026-10-20,2026-09-05,1583,ipoYear; employees; revenueGrowth; founded,True
+ABT,Abbott Laboratories,NYSE,180063685782.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+COP,ConocoPhillips,NYSE,174482255450.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BLK,"BlackRock, Inc.",NYSE,174165968671.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+MCD,McDonald's Corporation,NYSE,171723370328.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+UNP,Union Pacific Corporation,NYSE,170505608681.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NVO,Novo Nordisk A/S,NYSE,170121090578.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,True
+DE,Deere & Company,NYSE,169055133324.0,2026-10-20,2026-08-02,1583,ipoYear; employees; revenueGrowth; founded,False
+SCCO,Southern Copper Corporation,NYSE,168351451637.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WELL,Welltower Inc.,NYSE,168301153508.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PFE,"Pfizer, Inc.",NYSE,167798390460.0,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,True
+TMUS,"T-Mobile US, Inc.",NASDAQ,167433312073.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PBR,Petroleo Brasileiro S.A.- Petrobras,NYSE,164718004698.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BUD,Anheuser-Busch Inbev SA,NYSE,163351780863.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+NEE,"NextEra Energy, Inc.",NYSE,163060916598.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TJX,"TJX Companies, Inc. (The)",NYSE,162092177629.0,2026-10-20,2026-08-01,1583,ipoYear; employees; revenueGrowth; founded,False
+T,AT&T Inc.,NYSE,158975347080.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ACN,Accenture plc,NYSE,158440496321.0,2026-10-20,2026-08-31,1583,employees; revenueGrowth; founded,False
+DHR,Danaher Corporation,NYSE,157771160099.0,2026-10-20,2026-06-26,1583,ipoYear; employees; revenueGrowth; founded,False
+SMFG,Sumitomo Mitsui Financial Group Inc,NYSE,155782321115.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+SCHW,The Charles Schwab Corporation,NYSE,154913893260.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ISRG,"Intuitive Surgical, Inc.",NASDAQ,153032980501.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ETN,"Eaton Corporation, PLC",NYSE,152058600000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BA,Boeing Company (The),NYSE,151292629228.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+STX,Seagate Technology Holdings PLC,NASDAQ,151139505686.0,2026-10-20,2026-07-03,1583,employees; revenueGrowth; founded,False
+NOW,"ServiceNow, Inc.",NYSE,150302240000.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+SONY,Sony Group Corporation,NYSE,146045221763.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,True
+UBS,UBS AG,NYSE,145830422820.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+BBVA,Banco Bilbao Vizcaya Argentaria S.A.,NYSE,143136287465.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+UBER,"Uber Technologies, Inc.",NYSE,142897506065.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+UL,Unilever PLC,NYSE,140354426462.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MNST,Monster Beverage Corporation,NASDAQ,137525571378.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CB,Chubb Limited,NYSE,137448915766.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MPC,Marathon Petroleum Corporation,NYSE,133023881985.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WDC,Western Digital Corporation,NASDAQ,131574378236.0,2026-10-20,2026-07-03,1583,ipoYear; employees; revenueGrowth; founded,False
+BP,BP p.l.c.,NYSE,129430479025.00002,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PGR,Progressive Corporation (The),NYSE,127384368525.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VRTX,Vertex Pharmaceuticals Incorporated,NASDAQ,127224710802.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+LMT,Lockheed Martin Corporation,NYSE,126526414517.0,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,False
+BTI,British American Tobacco p.l.c.,NYSE,126401116303.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+SPGI,S&P Global Inc.,NYSE,126124284000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+FTNT,"Fortinet, Inc.",NASDAQ,125831891490.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+MFG,"Mizuho Financial Group, Inc.",NYSE,125363876708.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+VLO,Valero Energy Corporation,NYSE,124761848126.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NEM,Newmont Corporation,NYSE,124346224901.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MO,Altria Group,NYSE,123711327477.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+COF,Capital One Financial Corporation,NYSE,122592674778.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BKNG,Booking Holdings Inc.,NASDAQ,122174469300.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PH,Parker-Hannifin Corporation,NYSE,121857382118.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BMY,Bristol-Myers Squibb Company,NYSE,120172903212.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MDT,Medtronic plc,NYSE,118665622055.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+CVS,CVS Health Corporation,NYSE,118534973799.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HDB,HDFC Bank Limited,NYSE,118426313670.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MCK,McKesson Corporation,NYSE,117806400486.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PLD,"Prologis, Inc.",NYSE,117646750840.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PSX,Phillips 66,NYSE,115935527144.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PDD,PDD Holdings Inc.,NASDAQ,115850238042.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+BMO,Bank Of Montreal,NYSE,115399213187.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+EQNR,Equinor ASA,NYSE,115387508035.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+GLW,Corning Incorporated,NYSE,114340687057.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SYK,Stryker Corporation,NYSE,114281753325.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ADP,"Automatic Data Processing, Inc.",NASDAQ,113736081822.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+RIO,Rio Tinto Plc,NYSE,112415453268.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+CNQ,Canadian Natural Resources Limited,NYSE,111965620800.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BNS,Bank of Nova Scotia (The),NYSE,111809399990.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+SBUX,Starbucks Corporation,NASDAQ,111571800000.0,2026-10-20,2026-06-28,1583,employees; revenueGrowth; founded,True
+SNOW,Snowflake Inc.,NYSE,111255480000.0,2026-10-20,2026-07-31,1530,pe; employees; revenueGrowth; founded,False
+LOW,"Lowe's Companies, Inc.",NYSE,109921703402.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+SPOT,Spotify Technology S.A.,NYSE,106777681707.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+NET,"Cloudflare, Inc.",NYSE,105962201590.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+CME,CME Group Inc.,NASDAQ,105547301068.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+IBN,ICICI Bank Limited,NYSE,105540059282.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ABNB,"Airbnb, Inc.",NASDAQ,105062935764.0,2026-10-20,2026-06-30,1470,employees; revenueGrowth; founded,False
+ITUB,Itau Unibanco Banco Holding SA,NYSE,103983376481.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ENB,Enbridge Inc,NYSE,102915199070.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SO,Southern Company (The),NYSE,102692901975.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TT,Trane Technologies plc,NYSE,102319578232.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MAR,Marriott International,NASDAQ,101881388722.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CM,Canadian Imperial Bank of Commerce,NYSE,101509496228.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+FCX,"Freeport-McMoran, Inc.",NYSE,100162222229.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+GSK,GSK plc,NYSE,100043020114.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+HCA,"HCA Healthcare, Inc.",NYSE,98482202320.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BNY,The Bank Of New York Mellon Corporation,NYSE,96646129986.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SNY,Sanofi,NASDAQ,96505460377.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+EQIX,"Equinix, Inc.",NASDAQ,96274950747.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ADBE,Adobe Inc.,NASDAQ,96167428000.0,2026-10-20,2026-08-28,1583,employees; revenueGrowth; founded,True
+ING,"ING Group, N.V.",NYSE,95258004920.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+AEM,Agnico Eagle Mines Limited,NYSE,95223518835.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+DDOG,"Datadog, Inc.",NASDAQ,93488773249.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ELV,"Elevance Health, Inc.",NYSE,93303674637.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MELI,"MercadoLibre, Inc.",NASDAQ,93267920575.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CEG,Constellation Energy Corporation,NASDAQ,93250159079.0,2026-10-20,2026-06-30,1192,ipoYear; employees; revenueGrowth; founded,False
+DUK,Duke Energy Corporation,NYSE,92995080559.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+E,ENI S.p.A.,NYSE,92593563479.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+GD,General Dynamics Corporation,NYSE,92376343089.0,2026-10-20,2026-07-05,1583,ipoYear; employees; revenueGrowth; founded,False
+RACE,Ferrari N.V.,NYSE,92232632530.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+SU,Suncor Energy  Inc.,NYSE,91687265285.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PWR,"Quanta Services, Inc.",NYSE,91110208631.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ASX,"ASE Technology Holding Co., Ltd.",NYSE,90857470673.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MRNA,"Moderna, Inc.",NASDAQ,90582630855.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,True
+WM,"Waste Management, Inc.",NYSE,90499514809.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+USB,U.S. Bancorp,NYSE,90133276151.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+APP,Applovin Corporation,NASDAQ,90061277120.0,2026-10-20,2026-06-30,1385,employees; revenueGrowth; founded,False
+JCI,Johnson Controls International plc,NYSE,89783000683.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CDNS,"Cadence Design Systems, Inc.",NASDAQ,89739562980.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MRSH,Marsh,NYSE,89634450640.0,2026-10-20,2026-09-30,1583,ipoYear; employees; revenueGrowth; founded,False
+EMR,Emerson Electric Company,NYSE,89549212000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BN,Brookfield Corporation,NYSE,89354332786.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+ICE,Intercontinental Exchange Inc.,NYSE,88924886741.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CSX,CSX Corporation,NASDAQ,88696499026.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HWM,Howmet Aerospace Inc.,NYSE,87748271822.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SNPS,"Synopsys, Inc.",NASDAQ,87114186539.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+INTU,Intuit Inc.,NASDAQ,87017386320.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+HOOD,"Robinhood Markets, Inc.",NASDAQ,86779420990.0,2026-10-20,2026-06-30,1312,employees; revenueGrowth; founded,False
+PNC,"PNC Financial Services Group, Inc. (The)",NYSE,86255610242.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WMB,"Williams Companies, Inc. (The)",NYSE,86086526679.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AMT,American Tower Corporation (REIT),NYSE,85284667585.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CTAS,Cintas Corporation,NASDAQ,84299042244.0,2026-10-20,2026-08-31,1583,employees; revenueGrowth; founded,False
+DASH,DoorDash Inc.,NASDAQ,83856149748.0,2026-10-20,2026-06-30,1471,profile; ipoYear; employees; revenueGrowth; founded,False
+MMM,3M Company,NYSE,83552188778.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MCO,Moody's Corporation,NYSE,83354232000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NGG,"National Grid Transco, PLC",NYSE,82999837438.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+UPS,"United Parcel Service, Inc.",NYSE,82917172982.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+EOG,"EOG Resources, Inc.",NYSE,82692024596.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MDLZ,"Mondelez International, Inc.",NASDAQ,80841352330.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+REGN,"Regeneron Pharmaceuticals, Inc.",NASDAQ,80514918816.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+SHW,Sherwin-Williams Company (The),NYSE,80501030453.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BX,Blackstone Inc.,NYSE,80384443458.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+LYG,Lloyds Banking Group Plc,NYSE,80181685275.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ECL,Ecolab Inc.,NYSE,80157160742.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NTES,"NetEase, Inc.",NASDAQ,79925545151.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+EPD,Enterprise Products Partners L.P.,NYSE,79468759819.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VRT,"Vertiv Holdings, LLC",NYSE,79338362692.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TRV,"The Travelers Companies, Inc.",NYSE,78996569451.0,2026-10-20,2026-09-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CI,The Cigna Group,NYSE,78875785071.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+KKR,KKR & Co. Inc.,NYSE,78094297287.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HLT,Hilton Worldwide Holdings Inc.,NYSE,77881461456.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CMCSA,Comcast Corporation,NASDAQ,77715140949.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CP,Canadian Pacific Kansas City Limited,NYSE,77252208202.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ITW,Illinois Tool Works Inc.,NYSE,76944416000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ROST,"Ross Stores, Inc.",NASDAQ,76240679233.0,2026-10-20,2026-08-01,1583,employees; revenueGrowth; founded,False
+MSI,"Motorola Solutions, Inc.",NYSE,75945099313.0,2026-10-20,2026-07-04,1583,ipoYear; employees; revenueGrowth; founded,False
+LITE,Lumentum Holdings Inc.,NASDAQ,75592299161.0,2026-10-20,2026-06-27,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+RCL,Royal Caribbean Cruises Ltd.,NYSE,75413464125.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BCS,Barclays PLC,NYSE,74497151426.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+CL,Colgate-Palmolive Company,NYSE,74447970500.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+KMI,"Kinder Morgan, Inc.",NYSE,74352921752.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+HPE,Hewlett Packard Enterprise Company,NYSE,74165457203.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+MFC,Manulife Financial Corp,NYSE,73531316047.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+SLB,SLB Limited,NYSE,72856591210.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NSC,Norfolk Southern Corporation,NYSE,72656316498.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+GM,General Motors Company,NYSE,72609115018.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,True
+CNI,Canadian National Railway Company,NYSE,72546369000.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+NOC,Northrop Grumman Corporation,NYSE,72544484227.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BAM,Brookfield Asset Management Inc Class A Limited,NYSE,72211085584.0,2026-10-20,2026-06-30,973,employees; revenueGrowth; founded,False
+ORLY,"O'Reilly Automotive, Inc.",NASDAQ,72054137743.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CMI,Cummins Inc.,NYSE,71878758597.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NU,Nu Holdings Ltd.,NYSE,70455824400.0,2026-10-20,,1219,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+RSG,"Republic Services, Inc.",NYSE,70131958351.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TGT,Target Corporation,NYSE,69639146661.0,2026-10-20,2026-08-01,1583,ipoYear; employees; revenueGrowth; founded,False
+FDX,FedEx Corporation,NYSE,69529040394.0,2026-10-20,2026-05-31,1583,ipoYear; employees; revenueGrowth; founded,False
+AMX,"America Movil, S.A.B. de C.V.",NYSE,68712592500.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+RELX,RELX PLC,NYSE,68591748134.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+NWG,NatWest Group plc,NYSE,68012841886.00001,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+AEP,"American Electric Power Company, Inc.",NASDAQ,67897237741.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BE,Bloom Energy Corporation,NYSE,66627976211.99999,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+B,Barrick Mining Corporation,NYSE,66559565903.99999,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+HON,Honeywell International Inc.,NASDAQ,66551063299.99999,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+APD,"Air Products and Chemicals, Inc.",NYSE,66505033534.99999,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+APO,"Apollo Global Management, Inc.",NYSE,65520763491.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SPG,"Simon Property Group, Inc.",NYSE,65515946271.99999,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+IMO,Imperial Oil Limited,NYSE American,65401117320.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BSX,Boston Scientific Corporation,NYSE,65287790146.00001,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+COR,"Cencora, Inc.",NYSE,64881236099.99999,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AJG,Arthur J. Gallagher & Co.,NYSE,64846463000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CVNA,Carvana Co.,NYSE,64608227936.99999,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+DLR,"Digital Realty Trust, Inc.",NYSE,64016258448.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+URI,"United Rentals, Inc.",NYSE,63798551225.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+MET,"MetLife, Inc.",NYSE,63280792391.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TDG,Transdigm Group Incorporated,NYSE,63150665986.0,2026-10-20,2026-06-27,1583,employees; revenueGrowth; founded,False
+TRGP,"Targa Resources, Inc.",NYSE,62785402949.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+OXY,Occidental Petroleum Corporation,NYSE,62697255909.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ALL,Allstate Corporation (The),NYSE,62417984958.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CVE,Cenovus Energy Inc,NYSE,62306250000.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+GWW,"W.W. Grainger, Inc.",NYSE,62081867613.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TAK,Takeda Pharmaceutical Company Limited,NYSE,61964552763.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MPWR,"Monolithic Power Systems, Inc.",NASDAQ,61608613380.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TEL,TE Connectivity plc,NYSE,61472343701.0,2026-10-20,2026-06-26,1583,ipoYear; employees; revenueGrowth; founded,False
+AON,Aon plc,NYSE,61461223247.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TRP,TC Energy Corporation,NYSE,60690000000.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+WPM,Wheaton Precious Metals Corp.,NYSE,59944574176.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+DB,Deutsche Bank AG,NYSE,59508682000.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+AFL,Aflac Incorporated,NYSE,59494409174.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+LNG,"Cheniere Energy, Inc.",NYSE,59192689683.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+NUE,Nucor Corporation,NYSE,59153295003.0,2026-10-20,2026-07-04,1583,ipoYear; employees; revenueGrowth; founded,False
+MPLX,MPLX LP,NYSE,58986273043.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+FAST,Fastenal Company,NASDAQ,58545326174.0,2026-10-20,2026-09-30,1583,employees; revenueGrowth; founded,False
+CAH,"Cardinal Health, Inc.",NYSE,58503468514.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+OKE,"ONEOK, Inc.",NYSE,58258764624.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NXPI,NXP Semiconductors N.V.,NASDAQ,58045671213.0,2026-10-20,2026-06-28,1583,employees; revenueGrowth; founded,False
+NTRA,"Natera, Inc.",NASDAQ,57574064381.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+MSTR,Strategy Inc,NASDAQ,57397435046.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+KEYS,Keysight Technologies Inc.,NYSE,57178400056.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+PCAR,PACCAR Inc.,NASDAQ,57068488204.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+FANG,"Diamondback Energy, Inc.",NASDAQ,56878546581.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+AME,"AMTEK, Inc.",NYSE,56677964742.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TFC,Truist Financial Corporation,NYSE,56585725028.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+DVN,Devon Energy Corporation,NYSE,56012000000.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+VALE,VALE S.A.,NYSE,55973333168.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+CRH,CRH PLC,NYSE,55675653954.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+BKR,Baker Hughes Company,NASDAQ,55401139903.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NKE,"Nike, Inc.",NYSE,55268341527.0,2026-10-20,2026-08-31,1583,ipoYear; employees; revenueGrowth; founded,True
+PSA,Public Storage,NYSE,55250355109.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+GRMN,Garmin Ltd.,NYSE,55186681702.0,2026-10-20,2026-06-27,1583,employees; revenueGrowth; founded,False
+D,"Dominion Energy, Inc.",NYSE,54715309287.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SE,Sea Limited,NYSE,54186505661.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+TEAM,Atlassian Corporation,NASDAQ,54150627058.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+EBAY,eBay Inc.,NASDAQ,53609150000.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+SRE,Sempra,NYSE,53449814446.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+O,Realty Income Corporation,NYSE,52524563012.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TER,"Teradyne, Inc.",NASDAQ,52457011848.0,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,False
+NOK,Nokia Corporation,NYSE,52139536440.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+NDAQ,"Nasdaq, Inc.",NASDAQ,52096691070.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+DEO,Diageo plc,NYSE,52041203452.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BDX,"Becton, Dickinson and Company",NYSE,51955058232.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+FIX,"Comfort Systems USA, Inc.",NYSE,51526961259.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+HONA,Honeywell Aerospace Inc.,NASDAQ,51501648285.0,2026-10-20,,88,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+VEEV,Veeva Systems Inc.,NYSE,51292723680.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+ARGX,argenx SE,NASDAQ,51239740962.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+ABEV,Ambev S.A.,NYSE,51225325957.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+CCEP,Coca-Cola Europacific Partners plc,NASDAQ,50787014780.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+AZO,"AutoZone, Inc.",NYSE,50573990747.0,2026-10-20,2026-05-09,1583,ipoYear; employees; revenueGrowth; founded,False
+UMC,United Microelectronics Corporation,NYSE,50554035882.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ADSK,"Autodesk, Inc.",NASDAQ,50306300000.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+EW,Edwards Lifesciences Corporation,NYSE,50273608000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VST,Vistra Corp.,NYSE,50244588692.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HUM,Humana Inc.,NYSE,49830926214.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ALAB,"Astera Labs, Inc.",NASDAQ,49717361104.0,2026-10-20,2026-06-30,648,employees; revenueGrowth; founded,False
+INFY,Infosys Limited,NYSE,49487593110.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+DAL,"Delta Air Lines, Inc.",NYSE,49100000919.0,2026-10-20,2026-09-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CIEN,Ciena Corporation,NYSE,48810494305.0,2026-10-20,2026-08-01,1583,employees; revenueGrowth; founded,False
+ETR,Entergy Corporation,NYSE,48436349492.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WAB,Westinghouse Air Brake Technologies Corporation,NYSE,48433497416.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PYPL,"PayPal Holdings, Inc.",NASDAQ,48342093990.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,True
+VYLR,Vylor Inc.,NYSE,48306059103.0,2026-10-20,,13,quarterlyFinancials; historicalPrices; pe; employees; revenueGrowth; founded,False
+TEVA,Teva Pharmaceutical Industries Limited,NYSE,48138381230.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VMRK,Vivmark Residential,NYSE,47927250000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+A,"Agilent Technologies, Inc.",NYSE,47899712295.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+F,Ford Motor Company,NYSE,47705936938.0,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,True
+MT,ArcelorMittal,NYSE,47676921302.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ROK,"Rockwell Automation, Inc.",NYSE,47232454830.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WDAY,"Workday, Inc.",NASDAQ,47043200000.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+XEL,Xcel Energy Inc.,NASDAQ,46935021753.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+KDP,Keurig Dr Pepper Inc.,NASDAQ,46894065269.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+TRI,Thomson Reuters Corp,NASDAQ,46885236000.0,2026-10-20,,834,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+FNV,Franco-Nevada Corporation,NYSE,46594455020.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+XYZ,"Block, Inc.",NYSE,46561612500.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+AU,AngloGold Ashanti PLC,NYSE,46288002309.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+NBIS,Nebius Group N.V.,NASDAQ,46280632312.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MDLN,Medline Inc.,NASDAQ,46264556643.0,2026-10-20,2026-06-27,210,employees; revenueGrowth; founded,False
+FITB,Fifth Third Bancorp,NYSE,45807143408.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+COHR,Coherent Corp.,NYSE,45692779581.0,2026-10-20,2026-06-30,1032,ipoYear; employees; revenueGrowth; founded,False
+CARR,Carrier Global Corporation,NYSE,45510986397.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+STT,State Street Corporation,NYSE,45443912984.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+LHX,"L3Harris Technologies, Inc.",NYSE,45406571965.0,2026-10-20,2026-07-03,1583,ipoYear; employees; revenueGrowth; founded,False
+WDS,Woodside Energy Group Limited,NYSE,45075084391.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+HLN,Haleon plc,NYSE,44598502335.0,2026-10-20,,1069,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+COIN,"Coinbase Global, Inc.",NASDAQ,44443329679.0,2026-10-20,2026-06-30,1386,ipoYear; pe; employees; revenueGrowth; founded,False
+HMC,"Honda Motor Company, Ltd.",NYSE,44193763285.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BBD,Banco Bradesco Sa,NYSE,44115647237.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+SLF,Sun Life Financial Inc.,NYSE,43808554131.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+FERG,Ferguson Enterprises Inc.,NYSE,43789957020.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+IDXX,"IDEXX Laboratories, Inc.",NASDAQ,43786544273.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+EXC,Exelon Corporation,NASDAQ,43777890740.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+IQV,"IQVIA Holdings, Inc.",NYSE,43763848000.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+VTR,"Ventas, Inc.",NYSE,43349096799.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+FMX,Fomento Economico Mexicano S.A.B. de C.V.,NYSE,43242698733.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+AMP,"AMERIPRISE FINANCIAL SERVICES, LLC",NYSE,43187458124.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+HEI,Heico Corporation,NYSE,43069039499.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+KB,KB Financial Group Inc,NYSE,42722141199.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+WAT,Waters Corporation,NYSE,42666207164.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+P,"Everpure, Inc.",NYSE,42349851330.0,2026-10-20,2026-08-02,1583,employees; revenueGrowth; founded,False
+WCN,"Waste Connections, Inc.",NYSE,42288234889.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AIG,"American International Group, Inc.",NYSE,42176563012.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ONC,BeOne Medicines Ltd.,NASDAQ,42089023809.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BSBR,Banco Santander Brasil SA,NYSE,41241013683.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MSCI,MSCI Inc.,NYSE,40965723000.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+YUM,"Yum! Brands, Inc.",NYSE,40888769566.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+NTAP,"NetApp, Inc.",NASDAQ,40731409067.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+STM,STMicroelectronics N.V.,NYSE,40708986891.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ED,Consolidated Edison Inc,NYSE,40566502754.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MCHP,Microchip Technology Incorporated,NASDAQ,40416136871.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+LYV,"Live Nation Entertainment, Inc.",NYSE,40246263288.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SYY,Sysco Corporation,NYSE,40136357627.0,2026-10-20,2026-06-27,1583,ipoYear; employees; revenueGrowth; founded,False
+BTSGU,"BrightSpring Health Services, Inc.",NASDAQ,39885473701.0,2026-10-20,2026-06-30,685,employees; revenueGrowth; founded,False
+IX,ORIX Corporation,NYSE,39792220522.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ILMN,"Illumina, Inc.",NASDAQ,39661660000.0,2026-10-20,2026-06-28,1583,employees; revenueGrowth; founded,False
+TWLO,Twilio Inc.,NYSE,39513368354.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+PAYX,"Paychex, Inc.",NASDAQ,39424837385.0,2026-10-20,2026-08-31,1583,employees; revenueGrowth; founded,False
+PRU,"Prudential Financial, Inc.",NYSE,39216150000.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+RVMD,"Revolution Medicines, Inc.",NASDAQ,39041378539.0,2026-10-20,2026-06-30,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+ADM,Archer-Daniels-Midland Company,NYSE,38802566027.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ODFL,"Old Dominion Freight Line, Inc.",NASDAQ,38744584821.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+EL,"Estee Lauder Companies, Inc. (The)",NYSE,38326503140.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TTWO,"Take-Two Interactive Software, Inc.",NASDAQ,38316032380.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+ROP,"Roper Technologies, Inc.",NASDAQ,37928485179.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CBRE,"CBRE Group, Inc.",NYSE,37867761719.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+DHI,"D.R. Horton, Inc.",NYSE,37846378438.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CMG,"Chipotle Mexican Grill, Inc.",NYSE,37772727300.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+VIK,Viking Holdings Ltd,NYSE,37463858718.0,2026-10-20,,619,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+ARES,Ares Management Corporation,NYSE,37321326877.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+KR,Kroger Company (The),NYSE,37236617535.0,2026-10-20,2026-08-15,1583,ipoYear; employees; revenueGrowth; founded,False
+CHT,"Chunghwa Telecom Co., Ltd.",NYSE,36948717870.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+IBKR,"Interactive Brokers Group, Inc.",NASDAQ,36857909211.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+VOD,Vodafone Group Plc,NASDAQ,36727879345.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+EC,Ecopetrol S.A.,NYSE,36532183241.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+HIG,"The Hartford Insurance Group, Inc.",NYSE,36386236029.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+RBLX,Roblox Corporation,NYSE,36254579006.0,2026-10-20,2026-06-30,1410,pe; employees; revenueGrowth; founded,False
+KVUE,Kenvue Inc.,NYSE,36244995322.0,2026-10-20,2026-06-28,868,employees; revenueGrowth; founded,False
+JD,"JD.com, Inc.",NASDAQ,35992320000.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+UI,Ubiquiti Inc.,NYSE,35801326794.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+MLM,"Martin Marietta Materials, Inc.",NYSE,35627349046.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CCL,Carnival Corporation Ltd.,NYSE,35564937912.0,2026-10-20,2026-08-31,1583,employees; revenueGrowth; founded,False
+FER,Ferrovial N.V.,NASDAQ,35433294286.0,2026-10-20,,813,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ESLT,Elbit Systems Ltd.,NASDAQ,35322139346.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PCG,PG&E Corp,NYSE,35189850812.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CCJ,Cameco Corporation,NYSE,35147511325.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+STLD,"Steel Dynamics, Inc.",NASDAQ,35139747335.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+KMB,Kimberly-Clark Corporation,NASDAQ,35057156396.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+PEG,Public Service Enterprise Group Incorporated,NYSE,35048896510.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WEC,"WEC Energy Group, Inc.",NYSE,34865883981.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ERIC,Ericsson,NASDAQ,34859776940.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PPLC,PPL Corporation,NYSE,34669740825.0,2026-10-20,2026-06-30,164,ipoYear; employees; revenueGrowth; founded,False
+RPRX,Royalty Pharma plc,NASDAQ,34655322565.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ZS,"Zscaler, Inc.",NASDAQ,34654014966.0,2026-10-20,2026-07-31,1583,pe; employees; revenueGrowth; founded,False
+CLS,"Celestica, Inc.",NYSE,34532172687.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BIIB,Biogen Inc.,NASDAQ,34497603453.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CCI,Crown Castle Inc.,NYSE,34487417885.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SKYD,Skydance Corporation,NYSE,34286810992.0,2026-10-20,,302,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ACGL,Arch Capital Group Ltd.,NASDAQ,34286702579.999996,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CBOE,"Cboe Global Markets, Inc.",Cboe,34269092313.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth,False
+EQT,EQT Corporation,NYSE,34040580720.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CNC,Centene Corporation,NYSE,33902876850.0,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+QSR,Restaurant Brands International Inc.,NYSE,33788191106.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+RMD,ResMed Inc.,NYSE,33721071293.999996,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CRWV,"CoreWeave, Inc.",NASDAQ,33709917114.0,2026-10-20,2026-06-30,392,pe; employees; revenueGrowth; founded,False
+HSY,Hershey Company (The),NYSE,33554584718.999996,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,False
+NTR,Nutrien Ltd.,NYSE,33467457460.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+EXPE,"Expedia Group, Inc.",NASDAQ,33400741323.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VMC,Vulcan Materials Company,NYSE,33360046355.999996,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+IRM,Iron Mountain Incorporated,NYSE,33208748679.000004,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+OKTA,"Okta, Inc.",NASDAQ,33203738854.999996,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,False
+SHG,Shinhan Financial Group Co Ltd,NYSE,33050183156.000004,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ALC,Alcon Inc.,NYSE,33045161000.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+TKO,"TKO Group Holdings, Inc.",NYSE,32978354793.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ZTS,Zoetis Inc.,NYSE,32888466483.000004,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+GFI,Gold Fields Limited,NYSE,32820539136.999996,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+MTD,"Mettler-Toledo International, Inc.",NYSE,32574035062.999996,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CRDO,Credo Technology Group Holding Ltd,NASDAQ,32479970950.000004,2026-10-20,2026-08-01,1186,employees; revenueGrowth; founded,False
+DXCM,"DexCom, Inc.",NASDAQ,32445478575.000004,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+FLEX,Flex Ltd.,NASDAQ,32342567180.000004,2026-10-20,2026-06-26,1583,employees; revenueGrowth; founded,False
+RKLB,Rocket Lab Corporation,NASDAQ,32241740195.0,2026-10-20,2026-06-30,1487,pe; employees; revenueGrowth; founded,False
+VG,"Venture Global, Inc.",NYSE,32026189420.999996,2026-10-20,2026-06-30,436,employees; revenueGrowth; founded,False
+EME,"EMCOR Group, Inc.",NYSE,31617535938.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+GEHC,GE HealthCare Technologies Inc.,NASDAQ,31509632940.0,2026-10-20,2026-06-30,963,ipoYear; employees; revenueGrowth; founded,False
+BSP,Bending Spoons S.p.A.,NASDAQ,31419950045.0,2026-10-20,,77,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+EGO,Eldorado Gold Corporation,NYSE,9185393184.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+CLF,Cleveland-Cliffs Inc.,NYSE,8044614663.000001,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+AG,First Majestic Silver Corp.,NYSE,7879432974.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BVN,Buenaventura Mining Company Inc.,NYSE,7655164171.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+AUGO,Aura Minerals Inc.,NASDAQ,7208386855.0,2026-10-20,2025-03-31,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+MP,MP Materials Corp.,NYSE,6937056853.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+SBSW,Sibanye Stillwater Limited,NYSE,6913660542.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BTG,B2Gold Corp,NYSE American,6882778670.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+OR,OR Royalties Inc.,NYSE,6524856067.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+NXE,Nexgen Energy Ltd.,NYSE,5699301859.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MUSA,Murphy USA Inc.,NYSE,9975749531.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+DKNG,DraftKings Inc.,NASDAQ,9814896529.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+WMS,"Advanced Drainage Systems, Inc.",NYSE,9635294601.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+MSGS,Madison Square Garden Sports Corp.,NYSE,9631976400.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+TTC,Toro Company (The),NYSE,9505149785.0,2026-10-20,2026-07-31,1583,ipoYear; employees; revenueGrowth; founded,False
+FCFS,"FirstCash Holdings, Inc.",NASDAQ,9321467256.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+AYI,Acuity Inc.,NYSE,9237511093.0,2026-10-20,2026-05-31,1583,ipoYear; employees; revenueGrowth; founded,False
+APTV,Aptiv PLC,NYSE,9235530563.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ALSN,"Allison Transmission Holdings, Inc.",NYSE,9146343489.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+LTH,"Life Time Group Holdings, Inc.",NYSE,9068085850.0,2026-10-20,2026-06-30,1263,employees; revenueGrowth; founded,False
+DAR,Darling Ingredients Inc.,NYSE,9419256056.0,2026-10-20,2026-07-04,1583,employees; revenueGrowth; founded,False
+CTVA,"Corteva, Inc.",NYSE,8440029400.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CELH,"Celsius Holdings, Inc.",NASDAQ,7520201597.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+LW,"Lamb Weston Holdings, Inc.",NYSE,7362987088.0,2026-10-20,2026-08-30,1583,employees; revenueGrowth; founded,False
+TAP,Molson Coors Beverage Company,NYSE,7333233185.0,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+SFD,"Smithfield Foods, Inc.",NASDAQ,7194130964.0,2026-10-20,2026-06-28,434,employees; revenueGrowth; founded,False
+PRMB,Primo Brands Corporation,NYSE,7170986551.0,2026-10-20,2024-09-28,1583,employees; revenueGrowth; founded,False
+TBBB,BBB Foods Inc.,NYSE,6881678930.0,2026-10-20,,675,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+PPC,Pilgrim's Pride Corporation,NASDAQ,6793236190.0,2026-10-20,2026-06-28,1583,ipoYear; employees; revenueGrowth; founded,False
+CAG,"ConAgra Brands, Inc.",NYSE,6698083584.0,2026-10-20,2026-08-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+LFUS,"Littelfuse, Inc.",NASDAQ,9756420685.0,2026-10-20,2026-06-27,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+PBF,PBF Energy Inc.,NYSE,9632303456.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+FPS,"Forgent Power Solutions, Inc.",NYSE,9595598581.0,2026-10-20,,177,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+SM,SM Energy Company,NYSE,9250144705.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CHRD,Chord Energy Corporation,NASDAQ,8449727267.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VIST,Vista Energy S.A.B. de C.V.,NYSE,7887951106.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+SOBO,South Bow Corporation,NYSE,7133594243.0,2026-10-20,,512,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+MTDR,Matador Resources Company,NYSE,7101016914.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+NE,Noble Corporation plc,NYSE,7030643281.0,2026-10-20,2026-06-30,1405,employees; revenueGrowth; founded,False
+MGY,Magnolia Oil & Gas Corporation,NYSE,6826121021.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+SF,Stifel Financial Corporation,NYSE,9975174548.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AMG,"Affiliated Managers Group, Inc.",NYSE,9958660198.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+UMBF,UMB Financial Corporation,NASDAQ,9846921390.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SSB,SouthState Bank Corporation,NYSE,9810913605.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+WTFC,Wintrust Financial Corporation,NASDAQ,9609852339.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+EVR,Evercore Inc.,NYSE,9535990633.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+CFR,"Cullen/Frost Bankers, Inc.",NYSE,9521815350.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ORI,Old Republic International Corporation,NYSE,9481070847.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ONB,Old National Bancorp,NASDAQ,9480084600.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+KLAR,Klarna Group plc,NYSE,9229830047.0,2026-10-20,,279,quarterlyFinancials; pe; employees; revenueGrowth,False
+GKOS,Glaukos Corporation,NYSE,9847958122.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+PODD,Insulet Corporation,NASDAQ,9845522090.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+QGEN,Qiagen N.V.,NYSE,9592779752.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+KRYS,"Krystal Biotech, Inc.",NASDAQ,9479027229.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+HSIC,"Henry Schein, Inc.",NASDAQ,9358166132.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+TWST,Twist Bioscience Corporation,NASDAQ,9266915090.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+KYMR,"Kymera Therapeutics, Inc.",NASDAQ,8986087287.0,2026-10-20,2026-06-30,1547,pe; employees; revenueGrowth; founded,False
+IBRX,"ImmunityBio, Inc.",NASDAQ,8923821419.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+SYRE,"Spyre Therapeutics, Inc.",NASDAQ,8846038800.0,2026-10-20,2026-06-30,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+CYTK,"Cytokinetics, Incorporated",NASDAQ,8709817138.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+SOLS,Solstice Advanced Materials Inc.,NASDAQ,9605500403.0,2026-10-20,,251,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+BIO,"Bio-Rad Laboratories, Inc.",NYSE,9433762904.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+DRS,"Leonardo DRS, Inc.",NASDAQ,9389243498.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CGNX,Cognex Corporation,NASDAQ,9279227125.0,2026-10-20,2026-07-05,1583,employees; revenueGrowth; founded,False
+TFII,TFI International Inc.,NYSE,9172407460.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TXG,"10x Genomics, Inc.",NASDAQ,9106049732.0,2026-10-20,2026-06-30,1583,pe; employees; revenueGrowth; founded,False
+FLS,Flowserve Corporation,NYSE,8961450990.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+SAIA,"Saia, Inc.",NASDAQ,8829309150.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+XPEV,XPeng Inc.,NYSE,8823826266.0,2026-10-20,,1541,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+VMI,"Valmont Industries, Inc.",NYSE,8730622031.0,2026-10-20,2026-06-27,1583,ipoYear; employees; revenueGrowth; founded,False
+IDCC,"InterDigital, Inc.",NASDAQ,8319856657.000001,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CAE,CAE Inc,NASDAQ,7876962170.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ENS,EnerSys,NYSE,6096826117.0,2026-10-20,2026-07-05,1583,employees; revenueGrowth; founded,False
+DLB,Dolby Laboratories,NYSE,5719416623.0,2026-10-20,2026-06-26,1583,employees; revenueGrowth; founded,False
+NOVT,Novanta Inc.,NASDAQ,4973793110.0,2026-10-20,2026-07-03,1583,ipoYear; employees; revenueGrowth; founded,False
+NATL,NCR Atleos Corporation,NYSE,3385218547.0,2026-10-20,2026-06-30,758,employees; revenueGrowth; founded,False
+QS,QuantumScape Corporation,NASDAQ,2411447110.0,2026-10-20,2026-06-30,1479,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+PBI,Pitney Bowes Inc.,NYSE,2308599170.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+DBD,Diebold Nixdorf Incorporated,NYSE,2293770951.0,2026-10-20,2026-06-30,799,employees; revenueGrowth; founded,False
+CPT,Camden Property Trust,NYSE,9837775398.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+EDU,"New Oriental Education & Technology Group, Inc.",NYSE,9379289590.0,2026-10-20,,1583,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+BXP,"BXP, Inc.",NYSE,9250790555.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+FRT,Federal Realty Investment Trust,NYSE,9103374464.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+JAN,"Janus Living, Inc.",NYSE,8886727825.0,2026-10-20,,147,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+RHP,"Ryman Hospitality Properties, Inc.",NYSE,8753987750.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CUBE,CubeSmart,NYSE,8686759721.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+CTRE,"CareTrust REIT, Inc.",NYSE,8468748251.999999,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+BRX,Brixmor Property Group Inc.,NYSE,8402164012.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ADC,Agree Realty Corporation,NYSE,8186646184.000001,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+AUR,"Aurora Innovation, Inc.",NASDAQ,9840402366.0,2026-10-20,2026-06-30,1370,pe; employees; revenueGrowth; founded,False
+AEIS,"Advanced Energy Industries, Inc.",NASDAQ,9646549460.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+SANM,Sanmina Corporation,NASDAQ,9458861387.0,2026-10-20,2026-06-27,1583,employees; revenueGrowth; founded,False
+QNT,Quantinuum Inc.,NASDAQ,9280121013.0,2026-10-20,,95,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+YMM,Full Truck Alliance Co. Ltd.,NYSE,9161516425.0,2026-10-20,,1337,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+GTLB,GitLab Inc.,NASDAQ,8878114000.0,2026-10-20,2026-07-31,1258,pe; employees; revenueGrowth; founded,False
+PCTY,Paylocity Holding Corporation,NASDAQ,8816475542.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+PCOR,"Procore Technologies, Inc.",NYSE,8814929157.0,2026-10-20,2026-06-30,1360,pe; employees; revenueGrowth; founded,False
+VICR,Vicor Corporation,NASDAQ,8791631658.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VIAV,Viavi Solutions Inc.,NASDAQ,8662451538.0,2026-10-20,2026-06-27,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+KT,KT Corporation,NYSE,9055530566.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TIMB,TIM S.A.,NYSE,8932198073.0,2026-10-20,,1581,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+ESE,ESCO Technologies Inc.,NYSE,7790031057.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+VEON,VEON Ltd.,NASDAQ,5659013005.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TEO,Telecom Argentina Stet - France Telecom S.A.,NYSE,5254998744.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+DPC,DPC Holdings PLC,NYSE,4776094722.0,2026-10-20,,81,quarterlyFinancials; pe; employees; revenueGrowth,False
+LUMN,"Lumen Technologies, Inc.",NASDAQ,4600246502.0,2026-10-20,2026-06-30,1442,ipoYear; pe; employees; revenueGrowth; founded,False
+PHI,PLDT Inc.,NYSE,4327597173.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+TKC,Turkcell Iletisim Hizmetleri AS,NYSE,4285599999.9999995,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+LBTYB,Liberty Global Ltd.,NASDAQ,4096461668.0,2026-10-20,2026-06-30,1583,ipoYear; pe; employees; revenueGrowth; founded,False
+BEPC,Brookfield Renewable Corporation,NYSE,9815344805.0,2026-10-20,,1567,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+AM,Antero Midstream Corporation,NYSE,9726070260.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+OGE,OGE Energy Corp,NYSE,9651477729.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+ENLT,Enlight Renewable Energy Ltd.,NASDAQ,9485682182.0,2026-10-20,,1448,quarterlyFinancials; pe; employees; revenueGrowth; founded,False
+KNTK,Kinetik Holdings Inc.,NYSE,8874019400.0,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+UGP,Ultrapar Participacoes S.A.,NYSE,8646535192.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+EAI,"Entergy Arkansas, LLC",NYSE,8586019563.000001,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+EMP,"Entergy Mississippi, LLC",NYSE,8502025894.000001,2026-10-20,2026-06-30,1583,employees; revenueGrowth; founded,False
+ENJ,"Entergy New Orleans, LLC",NYSE,8432031169.0,2026-10-20,2026-06-30,1583,ipoYear; employees; revenueGrowth; founded,False
+UGI,UGI Corporation,NYSE,8165823394.0,2026-10-20,,1583,quarterlyFinancials; ipoYear; pe; employees; revenueGrowth; founded,False
+ZM,"Zoom Communications, Inc.",NASDAQ,28475172356.0,2026-10-20,2026-07-31,1583,employees; revenueGrowth; founded,True

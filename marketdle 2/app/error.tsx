@@ -1,0 +1,2 @@
+'use client'
+export default function ErrorPage({reset}:{error: Error;reset:()=>void}) {return <div className="mx-auto max-w-xl px-5 py-24 text-center"><p className="eyebrow justify-center">A BRIEF TRADING HALT</p><h1 className="mt-4 text-3xl font-semibold">Let’s get you back in the game.</h1><p className="mt-4 text-sm text-muted-foreground">This page couldn’t load. Your saved browser progress is still there.</p><button className="primary-action mx-auto mt-7" onClick={reset}>Try again →</button></div>}

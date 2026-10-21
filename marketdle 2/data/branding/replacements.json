@@ -1,0 +1,82 @@
+{
+  "components/logo.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/site-footer.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/wordle/wordle-game.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/chart/chart-game.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/hl/hl-game.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/ranking/ranking-game.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/trivia/trivia-game.tsx": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "README.md": [
+    [
+      "Bellwether",
+      "Marketdle"
+    ]
+  ],
+  "components/dashboard/home-dashboard.tsx": [
+    [
+      "WELCOME TO BELLWETHER",
+      "Welcome to Marketdle"
+    ]
+  ],
+  "app/about/page.tsx": [
+    [
+      "THE BELLWETHER PLAYBOOK",
+      "The Marketdle Playbook"
+    ],
+    [
+      "Bellwether is",
+      "Marketdle is"
+    ]
+  ],
+  "app/layout.tsx": [
+    [
+      "export const metadata: Metadata = {\n  title: {\n    default: 'Bellwether \u2014 Daily Stock Market Puzzles',\n    template: '%s \u00b7 Bellwether',\n  },\n  description:\n    'Think you know the market? Daily stock market puzzles: guess the mystery company, play higher or lower with financial metrics, identify stock charts, rank market caps, and test your finance trivia.',\n  keywords: ['stock market game', 'stock wordle', 'finance trivia', 'higher or lower stocks', 'investing game', 'daily puzzle'],\n  openGraph: {\n    title: 'Bellwether \u2014 Daily Stock Market Puzzles',\n    description: 'Real companies. New challenges every day. Think you know the market? Prove it.',\n    type: 'website',\n  },\n  icons: {\n    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],\n  },\n}\n\n",
+      "export const metadata: Metadata = {\n  applicationName: 'Marketdle',\n  title: {\n    default: 'Marketdle',\n    template: '%s \u00b7 Marketdle',\n  },\n  description:\n    'Marketdle is a daily stock market guessing game where players test their financial knowledge through stock puzzles, market cap comparisons, and interactive challenges.',\n  keywords: ['stock market game', 'stock wordle', 'finance trivia', 'higher or lower stocks', 'investing game', 'daily puzzle'],\n  openGraph: {\n    siteName: 'Marketdle',\n    title: 'Marketdle \u2014 Guess the Stock. Beat the Market.',\n    description: 'Marketdle is a daily stock market guessing game where players test their financial knowledge through stock puzzles, market cap comparisons, and interactive challenges.',\n    type: 'website',\n  },\n  twitter: {\n    card: 'summary',\n    title: 'Marketdle \u2014 Guess the Stock. Beat the Market.',\n    description: 'Marketdle is a daily stock market guessing game where players test their financial knowledge through stock puzzles, market cap comparisons, and interactive challenges.',\n  },\n  icons: {\n    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],\n  },\n}\n\n"
+    ]
+  ],
+  "components/game/share-button.tsx": [
+    [
+      "import { Button } from '@/components/ui/button'",
+      "import { Button } from '@/components/ui/button'\nimport { rebrandShareText } from '@/lib/branding'"
+    ],
+    [
+      "`${text}\\n${window.location.origin}`",
+      "`${rebrandShareText(text)}\\n${window.location.origin}`"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  "components/game/stock-search.tsx",
+  "lib/types.ts",
+  "lib/format.ts",
+  "lib/server/companies.ts",
+  "lib/server/ranking.ts",
+  "lib/server/hl.ts",
+  "lib/server/common.ts",
+  "lib/server/chart.ts",
+  "lib/server/series.ts",
+  "lib/server/wordle.ts"
+]
